@@ -26,10 +26,10 @@
             <div class="contacts-info__social">
                 <span>Find us here:</span>
                 <ul>
-                    <li><a href="#"><i class="icon-facebook"></i></a></li>
-                    <li><a href="#"><i class="icon-twitter"></i></a></li>
+                    <li><a href="https://m.facebook.com/naufalferio.rio/"><i class="icon-facebook"></i></a></li>
+                    <li><a href="https://x.com/ferdiodwi"><i class="icon-twitter"></i></a></li>
                     <li><a href="https://www.instagram.com/ferdiodwi"><i class="icon-insta"></i></a></li>
-                    <li><a href="#"><i class="icon-in"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/naufal-ferio-erdhiansyah-0a753126a/"><i class="icon-in"></i></a></li>
                 </ul>
             </div>
         </div>

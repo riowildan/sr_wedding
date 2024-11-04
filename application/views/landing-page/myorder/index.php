@@ -28,9 +28,9 @@
                         <div class="tab-cont" id="profile-tab_2">
                             <div class="profile-orders">
                                 <div class="profile-orders__row profile-orders__row-head">
-                                    <div class="profile-orders__col">date</div>
-                                    <div class="profile-orders__col">Delivery address</div>
-                                    <div class="profile-orders__col">amount</div>
+                                    <div class="profile-orders__col">Tanggal</div>
+                                    <div class="profile-orders__col">Alamat Pemesan</div>
+                                    <div class="profile-orders__col">Total Harga</div>
                                     <div class="profile-orders__col">Status</div>
                                 </div>
                                 <?php

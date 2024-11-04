@@ -16,7 +16,7 @@
                         <i class="icon-map-pin-big"></i>
                     </div>
                     <div class="detail-block__item-info">
-                        Perumahan Puri Permai 3 Blok D10 NO 6 Tigaraksa. Tangerang<br>
+                        Jl.Tidar Perumahan Puri Bunga Nirwana Cluster Menteng Blok C12, Sumbersari, Jember<br>
                     </div>
                 </div>
                 <div class="detail-block__item">
@@ -25,8 +25,8 @@
                         <i class="icon-phone"></i>
                     </div>
                     <div class="detail-block__item-info">
-                        0812 9871 3357<br>
-                        nenenghernawati42@gmail.com
+                        0895 2083 7827<br>
+                        wildanrio6@gmail.com
                     </div>
                 </div>
                 <div class="detail-block__item">
@@ -36,7 +36,7 @@
                     </div>
                     <div class="detail-block__item-info">
                         Mon - Fri: 9 am - 6 pm<br>
-                        Sat - Sun: Holiday
+                        Sat - Sun: Closed   
                     </div>
                 </div>
             </div>
@@ -51,16 +51,16 @@
             <div class="contacts-info__text">
                 <h4>About Me</h4>
                 <p>
-                    Didirikan sejak 2010 yang menyediakan paket Wedding Organizernya seperti tenda pernikahan, prosesi upacara adat pernikahan, dekorasi bernuasa internasional maupun tradisional, penyediaan foto dan video shooting, undangan dan souvenir, music entertaiment dan sound system.
+                    Didirikan sejak 2020 yang menyediakan paket Wedding Organizernya seperti tenda pernikahan, prosesi upacara adat pernikahan, dekorasi bernuasa internasional maupun tradisional, penyediaan foto dan video shooting, music entertaiment dan sound system (BREWOG).
                 </p>
             </div>
             <div class="contacts-info__social">
                 <span>Find us here:</span>
                 <ul>
-                    <li><a href="#"><i class="icon-facebook"></i></a></li>
-                    <li><a href="#"><i class="icon-twitter"></i></a></li>
-                    <li><a href="#"><i class="icon-insta"></i></a></li>
-                    <li><a href="#"><i class="icon-in"></i></a></li>
+                    <li><a href="https://m.facebook.com/naufalferio.rio/"><i class="icon-facebook"></i></a></li>
+                    <li><a href="https://x.com/ferdiodwi"><i class="icon-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/ferdiodwi"><i class="icon-insta"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/naufal-ferio-erdhiansyah-0a753126a/"><i class="icon-in"></i></a></li>
                 </ul>
             </div>
         </div>
@@ -77,12 +77,12 @@
             </div>
             <div class="info-blocks__item-text">
                 <!-- <span class="saint-text">Check This Out</span> -->
-                <h2>visi dan misi Eka Suhandi Makeup</h2>
+                <h2>visi dan misi Sido Rabi</h2>
                 <span class="info-blocks__item-descr">Visi:</span>
-                <p>“Menjadi Wedding Organizer yang Amanah, dapat dipercaya oleh banyak orang dan memberikan yang terbaik untuk Client.</p>
+                <p>“Mewujudkan pengalaman pernikahan yang tak terlupakan dengan menghadirkan layanan perencanaan yang mudah, personal, dan efisien bagi setiap pasangan".</p>
                 <br>
                 <span class="info-blocks__item-descr">Misi:</span>
-                <p>“Memberikan pelayanan dan makeup yang terbaik guna untuk mencapai kepuasan pelanggan”.</p>
+                <p>“Menyediakan platform terpadu yang memudahkan pasangan dalam merencanakan pernikahan dengan akses mudah ke vendor terpercaya, fitur komunikasi real-time, pengaturan anggaran transparan, serta inspirasi dan panduan tren terkini   ”.</p>
                 <!-- <a href="#" class="btn">Shop now</a> -->
             </div>
         </div>
