@@ -6,7 +6,7 @@
             <h1 class="main-text">Wedding Organizer</h1>
             <p>find a wedding organizer according to your wishes.
             </p>
-            <a href="<?= base_url('shop') ?>" class="btn">Shop now</a>
+            <a href="<?= base_url('shop') ?>" class="btn">Lihat Vendor</a>
         </div>
     </div>
 </div>

@@ -2,12 +2,12 @@
 <div class="detail-block detail-block_margin" style="background-image: url(<?= base_url() . 'assets/assets-landing/image/banner/dekor2.jpg'  ?>); margin-top:145px">
     <div class="wrapper">
         <div class="detail-block__content">
-            <h1>Cart</h1>
+            <h1>Keranjang</h1>
             <ul class="bread-crumbs">
                 <li class="bread-crumbs__item">
                     <a href="index.html" class="bread-crumbs__link">Home</a>
                 </li>
-                <li class="bread-crumbs__item">Cart</li>
+                <li class="bread-crumbs__item">Keranjang</li>
             </ul>
         </div>
     </div>
@@ -83,7 +83,7 @@
                 }
                 ?>
                 <div style="text-align: center; margin-top:20px">
-                    <button type="submit" class="btn"><i class="icon-cart"></i> Update Cart</button>
+                    <button type="submit" class="btn"><i class="icon-cart"></i> Update</button>
                 </div>
                 <?php echo form_close(); ?>
             </div>

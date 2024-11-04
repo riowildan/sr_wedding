@@ -84,19 +84,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="p-h-10">
-                        <div class="form-group">
-                            <label class="control-label">Role</label>
-                            <select class="form-control" name="role" id="role">
-                                <option value="<?= $this->session->userdata('role'); ?>">
-                                    <!-- Value Gender -->
-                                    <?= $this->session->userdata('role'); ?>
-                                </option>
-                                <option value="">---Pilih Role---</option>
-                                <option value="Admin">Admin</option>
-                                <option value="Owner">Owner</option>
-                            </select>
-                        </div>
+                    
                     </div>
                     <div class="form-group">
                         <div class="text-sm-right">
@@ -145,19 +133,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="p-h-10">
-                        <div class="form-group">
-                            <label class="control-label">Role</label>
-                            <select class="form-control" name="role" id="role">
-                                <option value="<?= $this->session->userdata('role'); ?>">
-                                    <?= $this->session->userdata('role'); ?>
-                                </option>
-                                <option value="">---Pilih Role---</option>
-                                <option value="Admin">Admin</option>
-                                <option value="Owner">Owner</option>
-                            </select>
-                        </div>
-                    </div>
+                    
                     <div class="form-group">
                         <div class="text-sm-right">
                             <a href="<?= base_url('profile') ?>" class="btn btn-default">Back</a>

@@ -22,10 +22,10 @@
         <div class="checkout-content">
             <div class="checkout-purchase checkout-form">
                 <h4>
-                    Eka Suhandi Makeup thanks<br>
+                    Sido Rabi thanks<br>
                     you for your purchase!
                 </h4>
-                <p>Tim desainer bunga, perencana acara, produksi, dan penata gaya kami yang berpengalaman akan membantu mengubah ide pernikahan Anda menjadi kenyataan.</p>
+                <p>"Terima kasih banyak atas kepercayaan Anda kepada kami sebagai bagian dari hari istimewa Anda. Kami merasa sangat terhormat dapat menjadi bagian dari momen bahagia ini. Semoga kebahagiaan selalu mengiringi perjalanan hidup Anda dan pasangan. Jika ada hal lain yang dapat kami bantu, jangan ragu untuk menghubungi kami. Sekali lagi, terima kasih dan selamat menempuh hidup baru!"</p>
                 <ul class="checkout-purchase__list">
                     <li><span>Nama</span><?= $this->session->userdata('nama') ?></li>
                     <li><span>Order number</span>
@@ -41,7 +41,7 @@
                         echo $orderNumber;
                         ?>
                     </li>
-                    <li><span>Order status</span>Awaiting payment</li>
+                    <li><span>Order status</span>Menunggu Pembayaran</li>
                     <li><span>Pembelian</span>
                         <?php $tanggal = date('d/m/Y');
                         $date = date('Y-m-d');
@@ -91,7 +91,7 @@
                             total:
                             <span>Rp. <?= number_format($row->harga, 0, '.', '.'); ?></span>
                         </div>
-                        <button type="submit" class="btn">confirm order</button>
+                        <button type="submit" class="btn">Konfirmasi Pesanan</button>
                     <?php } ?>
                 </div>
                 <?= form_close(); ?>

@@ -2,12 +2,12 @@
 <div class="detail-block detail-block_margin" style="background-image: url(<?= base_url() . 'assets/assets-landing/image/banner/dekor2.jpg'  ?>); margin-top:145px">
     <div class="wrapper">
         <div class="detail-block__content">
-            <h1>My profile</h1>
+            <h1>My Order</h1>
             <ul class="bread-crumbs">
                 <li class="bread-crumbs__item">
                     <a href="<?= base_url('/') ?>" class="bread-crumbs__link">Home</a>
                 </li>
-                <li class="bread-crumbs__item">My Orders</li>
+                <li class="bread-crumbs__item">Pesanan</li>
             </ul>
         </div>
     </div>

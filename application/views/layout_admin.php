@@ -36,7 +36,7 @@
                 <div class="header-container">
                     <div class="nav-logo">
                         <a href="<?= base_url('admin') ?>">
-                            <div class="logo" style="background-image: url('<?php echo base_url() . 'assets/assets-admin/images/logo/logo-2.png' ?>')"></div>
+                            <div class="logo" style="background-image: url('<?php echo base_url() . 'assets/assets-admin/images/logo/logoSR.png' ?>')"></div>
                         </a>
                     </div>
                     <ul class="nav-left">
@@ -231,7 +231,7 @@
                 <footer class="content-footer">
                     <div class="footer">
                         <div class="copyright">
-                            <span>Copyright © 2021 <b class="text-dark"></b>. All rights reserved. | Repost by <a href='https://stokcoding.com/' title='StokCoding.com' target='_blank'>StokCoding.com</a>
+                            <span>Copyright © 2024 <b class="text-dark"></b>. All rights reserved. | Repost by <a href='https://www.instagram.com/ferdiodwi' title='ferdiodwi' target='_blank'>ferdiodwi</a>
 							</span>
                         </div>
                     </div>

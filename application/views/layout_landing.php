@@ -7,7 +7,7 @@
     <meta name="it-rating" content="it-rat-cd303c3f80473535b3c667d0d67a7a11">
     <meta name="cmsmagazine" content="3f86e43372e678604d35804a67860df7">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
-    <title>Eka Suhandi - Wedding Organizer</title>
+    <title>Sido Rabi - Wedding Organizer</title>
     <meta name='description' content="" />
     <meta name="keywords" content="" />
     <link href="<?php echo base_url() . 'assets/assets-landing/vendor/selectize/dist/css/selectize.default.css' ?>" rel="stylesheet">
@@ -45,22 +45,23 @@
 
         <header class="header">
             <div class="header-top">
-                <span>Welcome!</span>
+                <span>Selamat Datang!</span>
                 <i class="header-top-close js-header-top-close icon-close"></i>
             </div>
             <div class="header-content">
                 <div class="header-logo">
-                    <img src="<?= base_url() . 'assets/assets-landing/image/logo-2.png' ?>" alt="">
+                    <img src="<?= base_url() . 'assets/assets-landing/image/logoSR.png' ?>" alt="">
                 </div>
                 <div class="header-box">
                     <ul class="header-nav">
                         <li><a href="<?= base_url('/') ?>">Home</a></li>
                         <li><a href="<?= base_url('profil') ?>">Profile</a></li>
-                        <li><a href="<?= base_url('shop') ?>">shop</a></li>
+                        <li><a href="<?= base_url('shop') ?>">Vendor</a></li>
+                        <li><a href="<?= base_url('review') ?>">Review</a></li>
                         <?php $data = $this->session->userdata('nama');
                         if (empty($data)) { ?>
                         <?php } else { ?>
-                            <li><a href="<?= base_url('myorder') ?>">My Order</a></li>
+                            <li><a href="<?= base_url('myorder') ?>">Pesanan</a></li>
                         <?php } ?>
                         <li><a href="<?= base_url('contact') ?>">contact</a></li>
                     </ul>
@@ -101,7 +102,8 @@
         <footer style="margin-top: 20px;" class="footer">
             <div class="wrapper">
                 <div class="footer-copy">
-                    <span>&copy; All rights reserved. BeShop 2020</span>
+                <span>Copyright © 2024 <b class="text-dark"></b>. All rights reserved. | Repost by <a href='https://www.instagram.com/ferdiodwi' title='ferdiodwi' target='_blank'>ferdiodwi</a>
+                </span>
                 </div>
             </div>
         </footer>

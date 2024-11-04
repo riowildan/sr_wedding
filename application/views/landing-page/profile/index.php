@@ -20,7 +20,7 @@
             <div class="contacts-info__text">
                 <h4>About Me</h4>
                 <p>
-                    Didirikan sejak 2010 yang menyediakan paket Wedding Organizernya seperti tenda pernikahan, prosesi upacara adat pernikahan, dekorasi bernuasa internasional maupun tradisional, penyediaan foto dan video shooting, undangan dan souvenir, music entertaiment dan sound system.
+                    Didirikan sejak 2020 yang menyediakan paket Wedding Organizernya seperti tenda pernikahan, prosesi upacara adat pernikahan, dekorasi bernuasa internasional maupun tradisional, penyediaan foto dan video shooting, music entertaiment dan sound system (BREWOG).
                 </p>
             </div>
             <div class="contacts-info__social">
@@ -28,7 +28,7 @@
                 <ul>
                     <li><a href="#"><i class="icon-facebook"></i></a></li>
                     <li><a href="#"><i class="icon-twitter"></i></a></li>
-                    <li><a href="#"><i class="icon-insta"></i></a></li>
+                    <li><a href="https://www.instagram.com/ferdiodwi"><i class="icon-insta"></i></a></li>
                     <li><a href="#"><i class="icon-in"></i></a></li>
                 </ul>
             </div>
@@ -46,12 +46,12 @@
             </div>
             <div class="info-blocks__item-text">
                 <!-- <span class="saint-text">Check This Out</span> -->
-                <h2>visi dan misi Eka Suhandi Makeup</h2>
+                <h2>visi dan misi Sido Rabi</h2>
                 <span class="info-blocks__item-descr">Visi:</span>
-                <p>“Menjadi Wedding Organizer yang Amanah, dapat dipercaya oleh banyak orang dan memberikan yang terbaik untuk Client.</p>
+                <p>“Mewujudkan pengalaman pernikahan yang tak terlupakan dengan menghadirkan layanan perencanaan yang mudah, personal, dan efisien bagi setiap pasangan".</p>
                 <br>
                 <span class="info-blocks__item-descr">Misi:</span>
-                <p>“Memberikan pelayanan dan makeup yang terbaik guna untuk mencapai kepuasan pelanggan”.</p>
+                <p>“Menyediakan platform terpadu yang memudahkan pasangan dalam merencanakan pernikahan dengan akses mudah ke vendor terpercaya, fitur komunikasi real-time, pengaturan anggaran transparan, serta inspirasi dan panduan tren terkini   ”.</p>
                 <!-- <a href="#" class="btn">Shop now</a> -->
             </div>
         </div>
