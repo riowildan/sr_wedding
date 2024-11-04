@@ -64,9 +64,9 @@
                         </div>
                     </div>
                     <div class="product-buttons">
-                        <button type="submit" class="btn btn-icon"><i class="icon-cart"></i> cart</button>
+                        <button type="submit" class="btn btn-icon"><i class="icon-cart"></i> Masukkan Keranjang</button>
                         <?php echo form_close(); ?>
-                        <a href="<?= base_url('shop/buy/') . $row->id ?>" class="btn btn-grey btn-icon"><i class="icon-cart"></i> Buy</a>
+                        <a href="<?= base_url('shop/buy/') . $row->id ?>" class="btn btn-grey btn-icon"><i class="icon-cart"></i> Pesan</a>
                     </div>
                 </div>
 

@@ -30,7 +30,7 @@
                     <span>No account? <a href="<?= base_url('register') ?>">Register now</a></span>
                 </div>
             </form>
-			<br><center><p>Repost by <a href='https://stokcoding.com/' title='StokCoding.com' target='_blank'>StokCoding.com</a></p></center>
+			<br><center><p>Repost by <a href='https://instagram.com/ferdiodwi' title='ferdiodwi' target='_blank'>ferdiodwi</a></p></center>
 
         </div>
     </div>

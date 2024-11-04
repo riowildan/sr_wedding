@@ -190,15 +190,15 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="<?= base_url('laporan') ?>">Produk Terjual</a>
+                                    <a href="<?= base_url('laporann') ?>">Produk Terjual</a>
                                 </li>
                                 <li>
-                                    <a href="<?= base_url('laporan/print') ?>">Print Laporan</a>
+                                    <a href="<?= base_url('laporan/printt') ?>">Print Laporan</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="active nav-item dropdown">
-                            <a href="<?= base_url('setting') ?>">
+                            <a href="<?= base_url('setting7g') ?>">
                                 <span class="icon-holder">
                                     <i class="fa fa-cogs" aria-hidden="true"></i>
                                 </span>
