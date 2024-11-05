@@ -31,8 +31,8 @@
     <h1 style="text-align: center;">CETAK LAPORAN WEDDING ORGANIZER</h1>
     <div class="row" style="padding: 20px;">
         <div class=" col-6">
-            <div>Eka Suhandi Wedding Organizer</div>
-            <div>Perumahan Puri Permai 3 Blok D10 NO 6 Tigaraksa.</div>
+            <div>Sido Rabi Wedding Organizer</div>
+            <div>Jl.Tidar Perumahan Puri Bunga Nirwana Cluster Menteng Blok C12, Sumbersari, Jember.</div>
         </div>
         <div class=" col-6" style="text-align: right;">
             <!-- <div> </div> -->
