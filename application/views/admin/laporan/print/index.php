@@ -10,7 +10,7 @@
     </div>
     <div class="card">
         <div class="card-header border bottom">
-            <h4 class="card-title">Laporan Eka Suhandi Wedding Organizer</h4>
+            <h4 class="card-title">Laporan Sido Rabi Wedding Organizer</h4>
         </div>
         <form action="<?php base_url() ?>filterPrint" method="POST" target="_blank">
             <div class="card-body">

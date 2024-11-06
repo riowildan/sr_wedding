@@ -26,7 +26,7 @@
 
 <body>
     <div style="text-align: center;">
-        <img src="<?php echo base_url() . 'assets/assets-admin/images/logo/logo-2.png' ?>" width="200px" height="100px" />
+        <img src="<?php echo base_url() . 'assets/assets-admin/images/logo/logoSR.png' ?>" width="200px" height="100px" />
     </div>
     <h1 style="text-align: center;">CETAK LAPORAN WEDDING ORGANIZER</h1>
     <div class="row" style="padding: 20px;">
@@ -36,8 +36,8 @@
         </div>
         <div class=" col-6" style="text-align: right;">
             <!-- <div> </div> -->
-            <div>Tangerang</div>
-            <div>0812 9871 3357</div>
+            <div>Jember</div>
+            <div>0895 2093 7827</div>
             <div></div>
         </div>
     </div>
@@ -83,7 +83,7 @@
 
 
     <div style="text-align: right; margin-right:20px">
-        <h3>Tangerang, <?= date('d-m-Y'); ?></h3>
+        <h3>Jember, <?= date('d-m-Y'); ?></h3>
         <br>
         <br>
         <br>
