@@ -7,8 +7,8 @@
     <title>Admin - Weeding Orginizer</title>
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" href="<?php echo base_url() . 'assets/assets-landing/image/icon-2.png' ?>">
-    <link rel="shortcut icon" href="<?php echo base_url() . 'assets/assets-landing/image/icon-2.png' ?>">
+    <link rel="apple-touch-icon" href="<?php echo base_url() . 'assets/assets-landing/image/R.png' ?>">
+    <link rel="shortcut icon" href="<?php echo base_url() . 'assets/assets-landing/image/R.png' ?>">
 
     <!-- core dependcies css -->
     <link rel="stylesheet" href="<?php echo base_url() . 'assets/assets-admin/vendor/bootstrap/dist/css/bootstrap.css' ?>" />
