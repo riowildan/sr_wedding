@@ -7,7 +7,7 @@ class Myorder extends CI_Controller
     {
         parent::__construct();
         $this->load->model('auth');
-        $this->auth->cek_login();
+        // $this->auth->cek_login();
     }
 
     public function index()
