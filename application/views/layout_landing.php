@@ -57,6 +57,7 @@
                         <li><a href="<?= base_url('/') ?>">Home</a></li>
                         <li><a href="<?= base_url('profil') ?>">Profile</a></li>
                         <li><a href="<?= base_url('shop') ?>">Vendor</a></li>
+                        <li><a href="<?= base_url('pakett') ?>">Paket</a></li>
                         <li><a href="<?= base_url('reviews') ?>">Review</a></li>
                         <?php $data = $this->session->userdata('nama');
                         if (empty($data)) { ?>

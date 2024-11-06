@@ -2,12 +2,12 @@
 <div class="detail-block detail-block_margin" style="background-image: url(<?= base_url() . 'assets/assets-landing/image/banner/dekor2.jpg'  ?>); margin-top:145px">
     <div class="wrapper">
         <div class="detail-block__content">
-            <h1>Vendor</h1>
+            <h1>Paket</h1>
             <ul class="bread-crumbs">
                 <li class="bread-crumbs__item">
                     <a href="<?= base_url('/') ?>" class="bread-crumbs__link">Home</a>
                 </li>
-                <li class="bread-crumbs__item">Vendor</li>
+                <li class="bread-crumbs__item">Paket</li>
             </ul>
         </div>
     </div>
@@ -54,7 +54,7 @@
                             <div class="container" style="margin-top: 10px;">
                                 <div class="row" style="text-align: center;">
                                     <div class="col-6">
-                                        <a type="submit" href="<?= base_url('shop/detail/' . $row->id) ?>" class="btn btn-primary" id="swal-test"><i class="icon-cart"></i>Order</a>
+                                        <a type="submit" href="<?= base_url('shop/buy/' . $row->id) ?>" class="btn btn-primary" id="swal-test"><i class="icon-cart"></i>Order</a>
                                     </div>
                                     <div class="col-6">
                                         <!-- Cart -->
