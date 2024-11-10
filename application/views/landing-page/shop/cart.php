@@ -48,7 +48,7 @@
                                 <div class="cart-table__info">
                                     <a href=" product.html" class="title5"><?php echo $row['name'] ?></a>
                                     <span class="cart-table__info-stock">in stock</span>
-                                    <span class="cart-table__info-num">SKU: IN1203</span>
+                                    <!-- <span class="cart-table__info-num">SKU: IN1203</span> -->
                                 </div>
                             </div>
                             <div class="cart-table__col">

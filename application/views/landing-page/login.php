@@ -1,5 +1,5 @@
 <!-- BEGIN DETAIL MAIN BLOCK -->
-<div class="detail-block detail-block_margin" style="background-image: url(<?= base_url() . 'assets/assets-landing/image/banner/dekor2.jpg'  ?>); margin-top:145px">
+<!-- <div class="detail-block detail-block_margin" style="background-image: url(<?= base_url() . 'assets/assets-landing/image/banner/dekor2.jpg'  ?>); margin-top:145px">
     <div class="wrapper">
         <div class="detail-block__content">
             <h1>Log in</h1>
@@ -11,7 +11,7 @@
             </ul>
         </div>
     </div>
-</div>
+</div> -->
 <!-- DETAIL MAIN BLOCK EOF   -->
 <!-- BEGIN LOGIN -->
 
@@ -26,29 +26,30 @@
 </head>
 <body>
     <div class="login">
-    <div class="wrapper">
-        <div class="login-form js-img" data-src="img/login-form__bg.png">
-            <form action="<?= base_url('login/proses'); ?>" method="POST">
-                <h3>log in</h3>
-                <div class="box-field">
-                    <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email" required>
-                </div>
-                <div class="box-field">
-                    <input type="password" class="form-control" name="password" id="password" placeholder="Enter your password" required>
-                </div>
-                <button class="btn" type="submit">log in</button>
-                <div class="login-form__bottom">
-                    <span>No account? <a href="<?= base_url('register') ?>">Register now</a></span>
-                </div>
-            </form>
-			<br><center><p>Repost by <a href='https://instagram.com/ferdiodwi' title='ferdiodwi' target='_blank'>ferdiodwi</a></p></center>
-
+        <div class="wrapper">
+            <div class="login-form js-img" data-src="img/login-form__bg.png">
+                <form action="<?= base_url('login/proses'); ?>" method="POST">
+                    <h3>Log In</h3>
+                    <h6>Masuk dan Pilih Paket atau Vendor Pernikahanmu Sesuai yang Kamu Inginkan.</h9><br><br>
+                    <div class="box-field">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="box-field">
+                        <input type="password" class="form-control" name="password" id="password" placeholder="Enter your password" required>
+                    </div>
+                    <button class="btn" type="submit">Log In</button>
+                    <div class="login-form__bottom">
+                        <span>No account? <a href="<?= base_url('register') ?>">Register now</a></span>
+                        <span> | </span>
+                        <span><a href="<?= base_url('forgot-password') ?>">Forgot Password?</a></span>
+                    </div>
+                </form>
+                <br><center><p>Repost by <a href='https://instagram.com/ferdiodwi' title='ferdiodwi' target='_blank'>ferdiodwi</a></p></center>
+            </div>
         </div>
+        <img class="promo-video__decor js-img" data-src="<?= base_url() . 'assets/assets-landing/image/side/shop-decor-side-r.jpg' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="">
+        <img class="shop-decor js-img" data-src="<?= base_url() . 'assets/assets-landing/image/side/shop-decor-side.jpg' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="">
     </div>
-    <img class="promo-video__decor js-img" data-src="<?= base_url() . 'assets/assets-landing/image/side/shop-decor-side-r.jpg' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="">
-
-    <img class="shop-decor js-img" data-src="<?= base_url() . 'assets/assets-landing/image/side/shop-decor-side.jpg' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="">
-</div>
 
     <!-- Popup Modal -->
     <?php if ($this->session->flashdata('error')): ?>
@@ -61,13 +62,10 @@
     <?php endif; ?>
 
     <script>
-        // Display the popup if there is an error
         $(document).ready(function() {
             <?php if ($this->session->flashdata('error')): ?>
                 $('#popup').show();
             <?php endif; ?>
-
-            // Close the popup when the 'close' button is clicked
             $('.close').click(function() {
                 $('#popup').hide();
             });
@@ -75,7 +73,6 @@
     </script>
 
     <style>
-        /* Popup styles */
         .popup {
             display: none;
             position: fixed;
@@ -108,6 +105,7 @@
     </style>
 </body>
 </html>
+
 
 
 <!-- LOGIN EOF   -->

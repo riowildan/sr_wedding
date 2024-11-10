@@ -1,5 +1,5 @@
 <!-- BEGIN DETAIL MAIN BLOCK -->
-<div class="detail-block detail-block_margin" style="background-image: url(<?= base_url() . 'assets/assets-landing/image/banner/dekor2.jpg'  ?>); margin-top:145px">
+<!-- <div class="detail-block detail-block_margin" style="background-image: url(<?= base_url() . 'assets/assets-landing/image/banner/dekor2.jpg'  ?>); margin-top:145px">
     <div class="wrapper">
         <div class="detail-block__content">
             <h1>Registration</h1>
@@ -11,7 +11,7 @@
             </ul>
         </div>
     </div>
-</div>
+</div> -->
 <!-- DETAIL MAIN BLOCK EOF   -->
 <!-- BEGIN REGISTRATION -->
 <!DOCTYPE html>
@@ -30,22 +30,22 @@
             <form method="POST" action="<?php echo base_url('register/proses'); ?>">
                 <h3>register now</h3>
                 <div class="box-field">
-                    <input type="text" name="nama" id="nama" class="form-control" placeholder="Enter your full name" required>
+                    <input type="text" name="nama" id="nama" class="form-control" placeholder="Masukkan Nama Lengkap" required>
                 </div>
                 <div class="box-field__row">
                     <div class="box-field">
-                        <input type="text" name="no" id="no" class="form-control" placeholder="Enter your phone" required>
+                        <input type="text" name="no" id="no" class="form-control" placeholder="Masukkan No Telepon" required>
                     </div>
                     <div class="box-field">
-                        <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Masukkan Email" required>
                     </div>
                 </div>
                 <div class="box-field">
-                    <input type="text" name="alamat" id="alamat" class="form-control" placeholder="Enter your address" required>
+                    <input type="text" name="alamat" id="alamat" class="form-control" placeholder="Masukkan Alamat Lengkap" required>
                 </div>
                 <!-- <div class="box-field"> -->
-                <select name="gender" id="gender" class="form-control" placeholder="Select your gender" required>
-                    <option>--Select Gender--</option>
+                <select name="gender" id="gender" class="form-control" placeholder="Pilih Jenis Kelamin" required>
+                    <option>--Pilih Jenis Kelamin--</option>
                     <option value="L">Laki-Laki</option>
                     <option value="P">Perempuan</option>
                 </select>
@@ -54,7 +54,7 @@
                     <span>password</span>
                 </div>
                 <div class="box-field">
-                    <input type="password" name="password" id="password" class="form-control" placeholder="Enter your password" required>
+                    <input type="password" name="password" id="password" class="form-control" placeholder="Masukkan Password" required>
                 </div>
                 <button class="btn" type="submit">registration</button>
                 <div class="login-form__bottom">
