@@ -60,7 +60,7 @@
                                     <ul class="list-media">
                                         <li class="list-item p-15">
                                             <div class="media-img">
-                                                <img src="<?php echo base_url() . 'assets/assets-admin/images/profile/profile.png' ?>" alt="">
+                                                <img src="<?php echo base_url() . 'assets/assets-admin/images/profile/ferdio.jpg' ?>" alt="">
                                             </div>
                                             <div class="info">
                                                 <span class="title text-semibold"><?= $this->session->userdata('nama'); ?></span>

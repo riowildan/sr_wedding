@@ -1,11 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+
+<div class="detail-block detail-block_margin" style="background-image: url(<?= base_url() . 'assets/assets-landing/image/banner/dekor2.jpg'  ?>); margin-top:145px">
+    <div class="wrapper">
+        <div class="detail-block__content">
+            <h1>Review</h1>
+            <ul class="bread-crumbs">
+                <li class="bread-crumbs__item">
+                    <a href="<?= base_url('/') ?>" class="bread-crumbs__link">Home</a>
+                </li>
+                <li class="bread-crumbs__item">Review</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testimonial Accordion</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"> -->
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Google Fonts -->
@@ -43,8 +55,6 @@
             margin-top: -19px;
         }
     </style>
-</head>
-<body>
 
     <div class="container">
         <div class="accordion d-flex justify-content-center align-items-center height" id="accordionExample">
@@ -136,5 +146,4 @@
 
     <!-- Bootstrap Bundle with Popper (No jQuery) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+
