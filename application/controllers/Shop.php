@@ -8,7 +8,7 @@ class Shop extends CI_Controller
     {
         parent::__construct();
         $this->load->model('auth');
-        $this->auth->cek_login();
+        // $this->auth->cek_login();
         $this->load->library('cart');
     }
 
@@ -132,6 +132,7 @@ class Shop extends CI_Controller
 
     function detail($id)
     {
+        $this->auth->cek_login();
         $data =  array(
             'data_detail' => $this->ShopModel->getProduk($id),
         );
