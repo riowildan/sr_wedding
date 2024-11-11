@@ -30,7 +30,7 @@
             <div class="login-form js-img" data-src="img/login-form__bg.png">
                 <form action="<?= base_url('login/proses'); ?>" method="POST">
                     <h3>Log In</h3>
-                    <h6>Masuk dan Pilih Paket atau Vendor Pernikahanmu Sesuai yang Kamu Inginkan.</h9><br><br>
+                    <h7><center>Masuk dan Pilih Vendor atau Paket Pernikahanmu Sesuai yang Kamu Inginkan.</center></h7><br>
                     <div class="box-field">
                         <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email" required>
                     </div>
@@ -44,7 +44,7 @@
                         <span><a href="<?= base_url('forgot-password') ?>">Forgot Password?</a></span>
                     </div>
                 </form>
-                <br><center><p>Repost by <a href='https://instagram.com/ferdiodwi' title='ferdiodwi' target='_blank'>ferdiodwi</a></p></center>
+                <!-- <br><center><p>Repost by <a href='https://instagram.com/ferdiodwi' title='ferdiodwi' target='_blank'>ferdiodwi</a></p></center> -->
             </div>
         </div>
         <img class="promo-video__decor js-img" data-src="<?= base_url() . 'assets/assets-landing/image/side/shop-decor-side-r.jpg' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" alt="">

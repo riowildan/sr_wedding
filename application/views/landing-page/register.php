@@ -61,7 +61,7 @@
                     <span>Already have an account? <a href="<?= base_url('login') ?>">Log in</a></span>
                 </div>
             </form>
-			<br><center><p>Repost by <a href='https://instagram.com/ferdiodwi' title='ferdiodwi' target='_blank'>ferdiodwi</a></p></center>
+			<!-- <br><center><p>Repost by <a href='https://instagram.com/ferdiodwi' title='ferdiodwi' target='_blank'>ferdiodwi</a></p></center> -->
 
         </div>
     </div>
