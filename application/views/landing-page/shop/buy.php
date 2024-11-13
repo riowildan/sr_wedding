@@ -62,38 +62,55 @@
                             <a href="#" class="checkout-order__item-img">
                                 <img data-src="<?= base_url() . 'assets/assets-admin/foto-produk/' . $barang->foto ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt="">
                             </a>
-                            <div class="checkout-order__item-info">
-                                <a class="title6" href="#"><?= $row->nama ?> <span>x1</span></a>
-                                <span class="checkout-order__item-price">Rp. <?= number_format($row->harga, 0, '.', '.') ?></span>
-                            </div>
+<?php
+// Ambil nilai quantity dari URL atau gunakan 1 sebagai default
+$qty = isset($_GET['qty']) ? intval($_GET['qty']) : 1;
+
+// Hitung total harga berdasarkan quantity
+$total_harga = $row->harga * $qty;
+?>
+
+<div class="checkout-order__item-info">
+    <a class="title6" href="#"><?= $row->nama ?> <span>x<?= $qty ?></span></a>
+    <span class="checkout-order__item-price">Rp. <?= number_format($total_harga, 0, '.', '.') ?></span>
+</div>
+
                         </div>
                     <?php
                     } ?>
                 </div>
                 <?= form_open('shop/checkoutBuy'); ?>
                 <div class="cart-bottom__total">
-                    <?php
-                    $id_cust = $this->session->userdata('id');
-                    foreach ($data_buy as $row) {
-                    ?>
-                        <input type="hidden" name="id_produk" value="<?= $row->id ?>">
-                        <input type="hidden" name="id_customer" value="<?= $id_cust ?>">
-                        <input type="hidden" name="harga" value="<?= $row->harga ?>">
-                        <input type="hidden" name="tgl_pembelian" value="<?= $date ?>">
-                        <input type="hidden" name="order_number" value="<?= $orderNumber ?>">
-                        <input type="hidden" name="total_harga" value="<?= $row->harga ?>">
-                        <div class="cart-bottom__total-goods">
-                            <?= $row->nama ?>
-                            <span>Rp. <?= number_format($row->harga, 0, '.', '.') ?></span>
-                        </div>
-
-                        <div class="cart-bottom__total-num">
-                            total:
-                            <span>Rp. <?= number_format($row->harga, 0, '.', '.'); ?></span>
-                        </div>
-                        <button type="submit" class="btn">Konfirmasi Pesanan</button>
-                    <?php } ?>
-                </div>
+    <?php
+    $id_cust = $this->session->userdata('id');
+    $grand_total = 0; // Initialize total
+    foreach ($data_buy as $row) {
+        // Get quantity from URL or use existing quantity or default to 1
+        $quantity = isset($_GET['qty']) ? intval($_GET['qty']) : 
+                   (isset($row->quantity) ? $row->quantity : 1);
+                   
+        $total_harga = $row->harga * $quantity;
+    ?>
+        <input type="hidden" name="id_produk" value="<?= $row->id ?>">
+        <input type="hidden" name="id_customer" value="<?= $id_cust ?>">
+        <input type="hidden" name="harga" value="<?= $row->harga ?>">
+        <input type="hidden" name="quantity" value="<?= $quantity ?>">
+        <input type="hidden" name="tgl_pembelian" value="<?= $date ?>">
+        <input type="hidden" name="order_number" value="<?= $orderNumber ?>">
+        <input type="hidden" name="total_harga" value="<?= $total_harga ?>">
+        
+        <div class="cart-bottom__total-goods">
+            <?= $row->nama ?> (Qty: <?= $quantity ?>)
+            <span>Rp. <?= number_format($row->harga, 0, '.', '.') ?></span>
+        </div>
+        <div class="cart-bottom__total-num">
+            Total:
+            <span>Rp. <?= number_format($total_harga, 0, '.', '.'); ?></span>
+        </div>
+        
+        <button type="submit" class="btn">Konfirmasi Pesanan</button>
+    <?php } ?>
+</div>
                 <?= form_close(); ?>
             </div>
         </div>
