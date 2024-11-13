@@ -22,7 +22,7 @@
         <div class="checkout-content">
             <div class="checkout-purchase checkout-form">
                 <h4>
-                    Eka Suhandi Makeup thanks<br>
+                    Sido Rabi thanks<br>
                     you for your purchase!
                 </h4>
                 <p>Tim desainer bunga, perencana acara, produksi, dan penata gaya kami yang berpengalaman akan membantu mengubah ide pernikahan Anda menjadi kenyataan.</p>

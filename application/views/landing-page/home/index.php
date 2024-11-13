@@ -2,7 +2,7 @@
 <div class="main-block" style="background-image: url(none)">
     <div class="wrapper">
         <div class="main-block__content">
-            <!-- <span class="saint-text">Eka Suhandi Makeup</span> -->
+            <span class="saint-text">Sido Rabi</span>
             <h1 class="main-text">Wedding Organizer</h1>
             <p>find a wedding organizer according to your wishes.
             </p>
