@@ -81,7 +81,7 @@
                                                     if ($row->status == 1) { ?>
                                                         <li>Confirmation Payment:
                                                             <a href="<?= base_url('myorder/pembayaran/') . $row->id_pembelian ?>" class="btn">Bayar Dp</a>
-                                                            <a href="<?= base_url('myorder/cash/') . $row->id_pembelian ?>" class="btn">Bayar Cash</a>
+                                                            <a href="<?= base_url('myorder/cash/') . $row->id_pembelian ?>" class="btn">Bayar Lunas</a>
                                                         </li>
                                                     <?php } elseif ($row->status == 2) { ?>
                                                         <li>Confirmation Payment:<a href="<?= base_url('myorder/pelunasan/') . $row->id_pembelian ?>" class="btn">Pelunasan Sekarang</a></li>

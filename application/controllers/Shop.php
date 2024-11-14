@@ -23,6 +23,7 @@ class Shop extends CI_Controller
 
     function keranjang()
     {
+        $this->auth->cek_login();
         $redirect_page = $this->input->post('redirect_page');
         $data = array(
             'id'      => $this->input->post('id'),

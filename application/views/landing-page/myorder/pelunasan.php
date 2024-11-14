@@ -56,9 +56,9 @@
                                 <?php foreach ($pembelian as $r) {
                                     $hasil = $r->total_harga - $r->bayar;
                                 ?>
-                                    <input type="hidden" class="form-control" name="id_pembelian" value="<?= $r->id_pembelian ?>">
-                                    <input type="hidden" class="form-control" name="id_customer" value="<?= $r->id_customer ?>">
-                                    <input type="hidden" class="form-control" name="bayar" value="<?= $r->total_harga ?>">
+                                    <input type="hidden" class="form-control" name="id_pembelian" value="<?= $r->id_pembelian ?>" required>
+                                    <input type="hidden" class="form-control" name="id_customer" value="<?= $r->id_customer ?>" required>
+                                    <input type="hidden" class="form-control" name="bayar" value="<?= $r->total_harga ?>" required>
                                     <input type="number" class="form-control" max="<?= $hasil ?>" required>
                                 <?php } ?>
                             </div>

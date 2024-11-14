@@ -147,3 +147,31 @@
     <!-- Bootstrap Bundle with Popper (No jQuery) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
+
+
+
+<div class="insta-photos insta-photos_contacts">
+    <a class="insta-photo">
+        <img data-src="<?= base_url() . 'assets/assets-landing/image/insta-post/instapost1.png' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt="">
+    </a>
+
+    <a class="insta-photo">
+        <img data-src="<?= base_url() . 'assets/assets-landing/image/insta-post/instapost2.jpg' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt="">
+    </a>
+
+    <a class="insta-photo">
+        <img data-src="<?= base_url() . 'assets/assets-landing/image/insta-post/instapost3.jpeg' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt="">
+    </a>
+
+    <a class="insta-photo">
+        <img data-src="<?= base_url() . 'assets/assets-landing/image/insta-post/instapost4.jpeg' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt="">
+    </a>
+
+    <a class="insta-photo">
+        <img data-src="<?= base_url() . 'assets/assets-landing/image/insta-post/instapost5.jpeg' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt="">
+    </a>
+
+    <a class="insta-photo">
+        <img data-src="<?= base_url() . 'assets/assets-landing/image/insta-post/instapost6.jpg' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt="">
+    </a>
+</div>

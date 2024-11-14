@@ -109,6 +109,12 @@
 	content: "\e909";
 	color: #999;
   }
+  .icon-whatsapp:before {
+    content: "\f232"; /* Unicode WhatsApp logo */
+    font-family: "FontAwesome";
+    color: #999; /* WhatsApp green color */
+}
+
   .icon-insta:before {
 	content: "\e90a";
 	color: #fff;

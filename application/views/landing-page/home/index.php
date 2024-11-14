@@ -66,41 +66,28 @@
 
 <!-- BEGIN INSTA PHOTOS -->
 <div class="insta-photos">
-    <a href="#" class="insta-photo">
+    <a class="insta-photo">
         <img data-src="<?= base_url() . 'assets/assets-landing/image/insta-post/instapost1.png' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt="">
-        <div class="insta-photo__hover">
-            <!-- <i class="icon-insta"></i> -->
-        </div>
     </a>
-    <a href="#" class="insta-photo">
+
+    <a class="insta-photo">
         <img data-src="<?= base_url() . 'assets/assets-landing/image/insta-post/instapost2.jpg' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt="">
-        <div class="insta-photo__hover">
-            <!-- <i class="icon-insta"></i> -->
-        </div>
     </a>
-    <a href="#" class="insta-photo">
+
+    <a class="insta-photo">
         <img data-src="<?= base_url() . 'assets/assets-landing/image/insta-post/instapost3.jpeg' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt="">
-        <div class="insta-photo__hover">
-            <!-- <i class="icon-insta"></i> -->
-        </div>
     </a>
-    <a href="#" class="insta-photo">
+
+    <a class="insta-photo">
         <img data-src="<?= base_url() . 'assets/assets-landing/image/insta-post/instapost4.jpeg' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt="">
-        <div class="insta-photo__hover">
-            <!-- <i class="icon-insta"></i> -->
-        </div>
     </a>
-    <a href="#" class="insta-photo">
+
+    <a class="insta-photo">
         <img data-src="<?= base_url() . 'assets/assets-landing/image/insta-post/instapost5.jpeg' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt="">
-        <div class="insta-photo__hover">
-            <!-- <i class="icon-insta"></i> -->
-        </div>
     </a>
-    <a href="#" class="insta-photo">
+
+    <a class="insta-photo">
         <img data-src="<?= base_url() . 'assets/assets-landing/image/insta-post/instapost6.jpg' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt="">
-        <div class="insta-photo__hover">
-            <!-- <i class="icon-insta"></i> -->
-        </div>
     </a>
 </div>
 <!-- INSTA PHOTOS EOF   -->

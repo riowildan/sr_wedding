@@ -56,6 +56,7 @@ if ($message) {
                         <th>Nama Customer</th>
                         <th>Order Number</th>
                         <th>Tanggal Pembelian</th>
+                        <th>Waktu Pembelian</th>
                         <th>Total Harga</th>
                         <th>Status</th>
                         <th>Action</th>
@@ -68,7 +69,8 @@ if ($message) {
                             <td><?= $no++ ?></td>
                             <td><?= $row->nama ?></td>
                             <td><?= $row->order_number ?></td>
-                            <td><?= date('d-m-Y', strtotime($row->tgl_pembelian)) ?></td>
+                            <td><?= date('d-m-Y H:i:s', strtotime($row->tgl_pembelian)) ?></td>
+                            <td><?= date('H:i:s', strtotime($row->tgl_pembelian)) ?></td>
                             <td>Rp. <?= number_format($row->total_harga, 0, ",", ".") ?></td>
                             <td>
                                 <?php if ($row->status == 1) { ?>
@@ -182,7 +184,7 @@ if ($message) {
                             <button class="btn btn-primary" data-dismiss="modal">Kembali</button>
                         <?php } elseif ($row->status == 3) { ?>
                             <input type="hidden" name="id_pembelian" class="form-control" value="<?= $row->id_pembelian ?>">
-                            <button class="btn btn-success" type="submit">Kerjakan</button>
+                            <button class="btn btn-success" type="submit">Konfirmasi</button>
                             <button class="btn btn-primary" data-dismiss="modal">Kembali</button>
                         <?php } elseif ($row->status == 4) { ?>
                             <input type="hidden" name="id_pembelian2" class="form-control" value="<?= $row->id_pembelian ?>">

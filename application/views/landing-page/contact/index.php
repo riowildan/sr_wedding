@@ -1,3 +1,7 @@
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
 <!-- BEGIN DETAIL MAIN BLOCK -->
 <div class="detail-block detail-block_margin" style="background-image: url(<?= base_url() . 'assets/assets-landing/image/banner/dekor2.jpg'  ?>); margin-top:145px">
     <div class="wrapper">
@@ -39,6 +43,15 @@
                         Sat - Sun: Closed   
                     </div>
                 </div>
+                <div class="detail-block__item">
+                    <div class="detail-block__item-icon">
+                        <img data-src="img/main-text-decor.svg" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt="">
+                        <i class="fab fa-whatsapp"></i> <!-- Ikon WhatsApp dari Font Awesome -->
+                    </div>
+                    <div class="detail-block__item-info">
+                        <a href="https://wa.me/6289520837827" target="_blank">Chat via WhatsApp</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -55,14 +68,17 @@
                 </p>
             </div>
             <div class="contacts-info__social">
-                <span>Find us here:</span>
-                <ul>
-                    <li><a href="https://m.facebook.com/naufalferio.rio/"><i class="icon-facebook"></i></a></li>
-                    <li><a href="https://x.com/ferdiodwi"><i class="icon-twitter"></i></a></li>
-                    <li><a href="https://www.instagram.com/ferdiodwi"><i class="icon-insta"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/naufal-ferio-erdhiansyah-0a753126a/"><i class="icon-in"></i></a></li>
-                </ul>
-            </div>
+    <span>Find us here:</span>
+    <ul>
+        <li><a href="https://m.facebook.com/naufalferio.rio/"><i class="icon-facebook"></i></a></li>
+        <li><a href="https://x.com/ferdiodwi"><i class="icon-twitter"></i></a></li>
+        <li><a href="https://www.instagram.com/ferdiodwi"><i class="icon-insta"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/naufal-ferio-erdhiansyah-0a753126a/"><i class="icon-in"></i></a></li>
+        <!-- WhatsApp link -->
+        <li><a href="https://wa.me/6281234567890" target="_blank"><i class="icon-whatsapp"></i></a></li>
+    </ul>
+</div>
+
         </div>
     </div>
 </div>
@@ -91,42 +107,29 @@
 </div>
 <!-- INFO BLOCKS EOF   -->
 <!-- BEGIN INSTA PHOTOS -->
-<div class="insta-photos insta-photos_contacts">
-    <a href="#" class="insta-photo">
+<div class="insta-photos">
+    <a class="insta-photo">
         <img data-src="<?= base_url() . 'assets/assets-landing/image/insta-post/instapost1.png' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt="">
-        <div class="insta-photo__hover">
-            <!-- <i class="icon-insta"></i> -->
-        </div>
     </a>
-    <a href="#" class="insta-photo">
+
+    <a class="insta-photo">
         <img data-src="<?= base_url() . 'assets/assets-landing/image/insta-post/instapost2.jpg' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt="">
-        <div class="insta-photo__hover">
-            <!-- <i class="icon-insta"></i> -->
-        </div>
     </a>
-    <a href="#" class="insta-photo">
+
+    <a class="insta-photo">
         <img data-src="<?= base_url() . 'assets/assets-landing/image/insta-post/instapost3.jpeg' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt="">
-        <div class="insta-photo__hover">
-            <!-- <i class="icon-insta"></i> -->
-        </div>
     </a>
-    <a href="#" class="insta-photo">
+
+    <a class="insta-photo">
         <img data-src="<?= base_url() . 'assets/assets-landing/image/insta-post/instapost4.jpeg' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt="">
-        <div class="insta-photo__hover">
-            <!-- <i class="icon-insta"></i> -->
-        </div>
     </a>
-    <a href="#" class="insta-photo">
+
+    <a class="insta-photo">
         <img data-src="<?= base_url() . 'assets/assets-landing/image/insta-post/instapost5.jpeg' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt="">
-        <div class="insta-photo__hover">
-            <!-- <i class="icon-insta"></i> -->
-        </div>
     </a>
-    <a href="#" class="insta-photo">
+
+    <a class="insta-photo">
         <img data-src="<?= base_url() . 'assets/assets-landing/image/insta-post/instapost6.jpg' ?>" src="data:image/gif;base64,R0lGODlhAQABAAAAACw=" class="js-img" alt="">
-        <div class="insta-photo__hover">
-            <!-- <i class="icon-insta"></i> -->
-        </div>
     </a>
 </div>
 <!-- INSTA PHOTOS EOF   -->
