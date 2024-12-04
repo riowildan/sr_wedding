@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Reviews extends CI_Controller
+class Gallery extends CI_Controller
 {
 
     function __construct()
@@ -11,6 +11,6 @@ class Reviews extends CI_Controller
 
     function index()
     {
-        $this->template->load('layout_landing', 'landing-page/reviews/index');
+        $this->template->load('layout_landing', 'landing-page/gallery/index');
     }
 }
