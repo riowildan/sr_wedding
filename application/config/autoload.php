@@ -133,3 +133,7 @@ $autoload['language'] = array();
 |	$autoload['model'] = array('first_model' => 'first');
 */
 $autoload['model'] = array('ProdukModel', 'ShopModel', 'TransaksiModel', 'CategoryModel', 'RekeningModel', 'UserModel');
+
+
+//forgot password
+

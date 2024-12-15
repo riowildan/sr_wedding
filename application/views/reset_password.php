@@ -1,3 +1,6 @@
+
+
+
 <!-- BEGIN DETAIL MAIN BLOCK -->
 <!-- <div class="detail-block detail-block_margin" style="background-image: url(<?= base_url() . 'assets/assets-landing/image/banner/dekor2.jpg'  ?>); margin-top:145px">
     <div class="wrapper">
@@ -28,21 +31,17 @@
     <div class="login">
         <div class="wrapper">
             <div class="login-form js-img" data-src="img/login-form__bg.png">
-                <form action="<?= base_url('login/proses'); ?>" method="POST">
-                    <h3>Log In</h3>
-                    <h7><center>Masuk dan Pilih Vendor atau Paket Pernikahanmu Sesuai yang Kamu Inginkan.</center></h7><br>
+            <form action="<?= base_url('forgotpassword/reset_password') ?>" method="POST">
+                    <h3>Reset Password</h3>
+                    <h7><center>Masukkan password baru Anda untuk mengganti yang lama.</center></h7><br>
+                    <input type="hidden" name="email" value="<?= $email ?>">
                     <div class="box-field">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email" required>
+                        <input type="password" class="form-control" name="password" id="password" placeholder="Password Baru" required>
                     </div>
                     <div class="box-field">
-                        <input type="password" class="form-control" name="password" id="password" placeholder="Enter your password" required>
+                        <input type="password" class="form-control" name="confirm_password" id="confirm_password" placeholder="Konfirmasi Password" required>
                     </div>
-                    <button class="btn" type="submit">Log In</button>
-                    <div class="login-form__bottom">
-                        <span>No account? <a href="<?= base_url('register') ?>">Register now</a></span>
-                        <span> | </span>
-                        <span><a href="<?= base_url('forgotpassword') ?>">Forgot Password?</a></span>
-                    </div>
+                    <button class="btn" type="submit">Ganti Password</button>
                 </form>
                 <!-- <br><center><p>Repost by <a href='https://instagram.com/ferdiodwi' title='ferdiodwi' target='_blank'>ferdiodwi</a></p></center> -->
             </div>

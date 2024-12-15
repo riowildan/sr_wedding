@@ -28,20 +28,15 @@
     <div class="login">
         <div class="wrapper">
             <div class="login-form js-img" data-src="img/login-form__bg.png">
-                <form action="<?= base_url('login/proses'); ?>" method="POST">
-                    <h3>Log In</h3>
-                    <h7><center>Masuk dan Pilih Vendor atau Paket Pernikahanmu Sesuai yang Kamu Inginkan.</center></h7><br>
+            <form action="<?= base_url('forgotpassword/request_reset'); ?>" method="POST">
+                    <h3>Forgot Password</h3>
+                    <h7><center>Masukkan email Anda, dan kami akan mengirimkan kode reset password.</center></h7><br>
                     <div class="box-field">
                         <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email" required>
                     </div>
-                    <div class="box-field">
-                        <input type="password" class="form-control" name="password" id="password" placeholder="Enter your password" required>
-                    </div>
-                    <button class="btn" type="submit">Log In</button>
+                    <button class="btn" type="submit">Send Reset Code</button>
                     <div class="login-form__bottom">
-                        <span>No account? <a href="<?= base_url('register') ?>">Register now</a></span>
-                        <span> | </span>
-                        <span><a href="<?= base_url('forgotpassword') ?>">Forgot Password?</a></span>
+                        <span>Ingat password Anda? <a href="<?= base_url('login') ?>">Log In</a></span>
                     </div>
                 </form>
                 <!-- <br><center><p>Repost by <a href='https://instagram.com/ferdiodwi' title='ferdiodwi' target='_blank'>ferdiodwi</a></p></center> -->

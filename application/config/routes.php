@@ -52,3 +52,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 $route['default_controller'] = 'landing';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+$route['forgotpassword'] = 'ForgotPassword';
+$route['forgotpassword/request_reset'] = 'ForgotPassword/request_reset';
+$route['forgotpassword/reset_password'] = 'ForgotPassword/reset_password';
+$route['forgotpassword'] = 'ForgotPassword/index';
