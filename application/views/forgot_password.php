@@ -30,11 +30,11 @@
             <div class="login-form js-img" data-src="img/login-form__bg.png">
             <form action="<?= base_url('forgotpassword/request_reset'); ?>" method="POST">
                     <h3>Forgot Password</h3>
-                    <h7><center>Masukkan email Anda, dan kami akan mengirimkan kode reset password.</center></h7><br>
+                    <h7><center>Masukkan email Anda, dan kami akan mengirimkan link reset password.</center></h7><br>
                     <div class="box-field">
                         <input type="email" class="form-control" name="email" id="email" placeholder="Enter your email" required>
                     </div>
-                    <button class="btn" type="submit">Send Reset Code</button>
+                    <button class="btn" type="submit">Send Reset Link</button>
                     <div class="login-form__bottom">
                         <span>Ingat password Anda? <a href="<?= base_url('login') ?>">Log In</a></span>
                     </div>
