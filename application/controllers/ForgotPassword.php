@@ -34,7 +34,7 @@ class ForgotPassword extends CI_Controller
                 ], ['email' => $email]);
 
                 // Kirim email
-                $this->email->from('your_email@gmail.com', 'Your App Name');
+                $this->email->from('your_email@gmail.com', 'Sido Rabi Wedding');
                 $this->email->to($email);
                 $this->email->subject('Password Reset Request');
                 $this->email->message("Klik link berikut untuk mereset password Anda: $reset_link");

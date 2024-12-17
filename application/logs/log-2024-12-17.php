@@ -2081,3 +2081,1423 @@ INFO - 2024-12-17 09:48:01 --> File loaded: C:\xampp\htdocs\sr_wedding\applicati
 INFO - 2024-12-17 09:48:01 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\layout_admin.php
 INFO - 2024-12-17 09:48:01 --> Final output sent to browser
 DEBUG - 2024-12-17 09:48:01 --> Total execution time: 0.2109
+INFO - 2024-12-17 10:03:27 --> Config Class Initialized
+INFO - 2024-12-17 10:03:27 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:03:27 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:03:27 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:03:27 --> URI Class Initialized
+INFO - 2024-12-17 10:03:27 --> Router Class Initialized
+INFO - 2024-12-17 10:03:27 --> Output Class Initialized
+INFO - 2024-12-17 10:03:27 --> Security Class Initialized
+DEBUG - 2024-12-17 10:03:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:03:27 --> Input Class Initialized
+INFO - 2024-12-17 10:03:27 --> Language Class Initialized
+INFO - 2024-12-17 10:03:27 --> Loader Class Initialized
+INFO - 2024-12-17 10:03:27 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:03:27 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:03:27 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:03:27 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:03:27 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:03:27 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:03:28 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:03:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:03:28 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:03:28 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:03:28 --> Cart Class Initialized
+INFO - 2024-12-17 10:03:28 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:03:28 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:03:28 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:03:28 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:03:28 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:03:28 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:03:28 --> Controller Class Initialized
+INFO - 2024-12-17 10:03:28 --> Model "Auth" initialized
+ERROR - 2024-12-17 10:03:28 --> Severity: 8192 --> setcookie(): Passing null to parameter #2 ($value) of type string is deprecated C:\xampp\htdocs\sr_wedding\system\libraries\Session\Session_driver.php 144
+ERROR - 2024-12-17 10:03:28 --> Severity: Warning --> session_destroy(): Trying to destroy uninitialized session C:\xampp\htdocs\sr_wedding\application\controllers\Login.php 107
+INFO - 2024-12-17 10:03:28 --> Config Class Initialized
+INFO - 2024-12-17 10:03:28 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:03:28 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:03:28 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:03:28 --> URI Class Initialized
+INFO - 2024-12-17 10:03:28 --> Router Class Initialized
+INFO - 2024-12-17 10:03:28 --> Output Class Initialized
+INFO - 2024-12-17 10:03:28 --> Security Class Initialized
+DEBUG - 2024-12-17 10:03:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:03:28 --> Input Class Initialized
+INFO - 2024-12-17 10:03:28 --> Language Class Initialized
+INFO - 2024-12-17 10:03:28 --> Loader Class Initialized
+INFO - 2024-12-17 10:03:28 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:03:28 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:03:28 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:03:28 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:03:28 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:03:28 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:03:28 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:03:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:03:28 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:03:28 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:03:28 --> Cart Class Initialized
+INFO - 2024-12-17 10:03:28 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:03:28 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:03:28 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:03:28 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:03:28 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:03:28 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:03:28 --> Controller Class Initialized
+INFO - 2024-12-17 10:03:28 --> Model "Auth" initialized
+INFO - 2024-12-17 10:03:28 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\landing-page/login.php
+INFO - 2024-12-17 10:03:28 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\layout_landing.php
+INFO - 2024-12-17 10:03:28 --> Final output sent to browser
+DEBUG - 2024-12-17 10:03:28 --> Total execution time: 0.0786
+INFO - 2024-12-17 10:03:28 --> Config Class Initialized
+INFO - 2024-12-17 10:03:28 --> Hooks Class Initialized
+INFO - 2024-12-17 10:03:28 --> Config Class Initialized
+INFO - 2024-12-17 10:03:28 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:03:28 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:03:28 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:03:28 --> URI Class Initialized
+DEBUG - 2024-12-17 10:03:28 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:03:28 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:03:28 --> URI Class Initialized
+INFO - 2024-12-17 10:03:28 --> Router Class Initialized
+INFO - 2024-12-17 10:03:28 --> Router Class Initialized
+INFO - 2024-12-17 10:03:28 --> Output Class Initialized
+INFO - 2024-12-17 10:03:28 --> Security Class Initialized
+INFO - 2024-12-17 10:03:28 --> Output Class Initialized
+DEBUG - 2024-12-17 10:03:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:03:28 --> Security Class Initialized
+INFO - 2024-12-17 10:03:28 --> Input Class Initialized
+INFO - 2024-12-17 10:03:28 --> Language Class Initialized
+DEBUG - 2024-12-17 10:03:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:03:28 --> Input Class Initialized
+ERROR - 2024-12-17 10:03:28 --> 404 Page Not Found: Assets/assets-landing
+INFO - 2024-12-17 10:03:28 --> Language Class Initialized
+ERROR - 2024-12-17 10:03:28 --> 404 Page Not Found: Path/to
+INFO - 2024-12-17 10:03:28 --> Config Class Initialized
+INFO - 2024-12-17 10:03:28 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:03:28 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:03:28 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:03:28 --> URI Class Initialized
+INFO - 2024-12-17 10:03:28 --> Router Class Initialized
+INFO - 2024-12-17 10:03:28 --> Output Class Initialized
+INFO - 2024-12-17 10:03:28 --> Security Class Initialized
+DEBUG - 2024-12-17 10:03:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:03:28 --> Input Class Initialized
+INFO - 2024-12-17 10:03:28 --> Language Class Initialized
+ERROR - 2024-12-17 10:03:28 --> 404 Page Not Found: Img/login-form__bg.png
+INFO - 2024-12-17 10:03:34 --> Config Class Initialized
+INFO - 2024-12-17 10:03:34 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:03:34 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:03:34 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:03:34 --> URI Class Initialized
+INFO - 2024-12-17 10:03:34 --> Router Class Initialized
+INFO - 2024-12-17 10:03:34 --> Output Class Initialized
+INFO - 2024-12-17 10:03:34 --> Security Class Initialized
+DEBUG - 2024-12-17 10:03:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:03:34 --> Input Class Initialized
+INFO - 2024-12-17 10:03:34 --> Language Class Initialized
+INFO - 2024-12-17 10:03:34 --> Loader Class Initialized
+INFO - 2024-12-17 10:03:34 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:03:34 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:03:34 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:03:34 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:03:34 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:03:34 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:03:34 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:03:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:03:34 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:03:34 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:03:34 --> Cart Class Initialized
+INFO - 2024-12-17 10:03:34 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:03:34 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:03:34 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:03:34 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:03:34 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:03:34 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:03:34 --> Controller Class Initialized
+INFO - 2024-12-17 10:03:34 --> Model "Auth" initialized
+INFO - 2024-12-17 10:03:34 --> Email Class Initialized
+INFO - 2024-12-17 10:03:34 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\forgot_password.php
+INFO - 2024-12-17 10:03:34 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\layout_landing.php
+INFO - 2024-12-17 10:03:34 --> Final output sent to browser
+DEBUG - 2024-12-17 10:03:34 --> Total execution time: 0.0766
+INFO - 2024-12-17 10:03:34 --> Config Class Initialized
+INFO - 2024-12-17 10:03:34 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:03:34 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:03:34 --> Config Class Initialized
+INFO - 2024-12-17 10:03:34 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:03:34 --> Hooks Class Initialized
+INFO - 2024-12-17 10:03:34 --> URI Class Initialized
+DEBUG - 2024-12-17 10:03:34 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:03:34 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:03:34 --> Router Class Initialized
+INFO - 2024-12-17 10:03:34 --> URI Class Initialized
+INFO - 2024-12-17 10:03:34 --> Output Class Initialized
+INFO - 2024-12-17 10:03:34 --> Router Class Initialized
+INFO - 2024-12-17 10:03:34 --> Security Class Initialized
+INFO - 2024-12-17 10:03:34 --> Output Class Initialized
+DEBUG - 2024-12-17 10:03:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:03:34 --> Input Class Initialized
+INFO - 2024-12-17 10:03:34 --> Language Class Initialized
+INFO - 2024-12-17 10:03:34 --> Security Class Initialized
+ERROR - 2024-12-17 10:03:34 --> 404 Page Not Found: Assets/assets-landing
+DEBUG - 2024-12-17 10:03:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:03:34 --> Input Class Initialized
+INFO - 2024-12-17 10:03:34 --> Language Class Initialized
+ERROR - 2024-12-17 10:03:34 --> 404 Page Not Found: Path/to
+INFO - 2024-12-17 10:03:34 --> Config Class Initialized
+INFO - 2024-12-17 10:03:34 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:03:34 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:03:34 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:03:34 --> URI Class Initialized
+INFO - 2024-12-17 10:03:34 --> Router Class Initialized
+INFO - 2024-12-17 10:03:34 --> Output Class Initialized
+INFO - 2024-12-17 10:03:34 --> Security Class Initialized
+DEBUG - 2024-12-17 10:03:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:03:34 --> Input Class Initialized
+INFO - 2024-12-17 10:03:34 --> Language Class Initialized
+ERROR - 2024-12-17 10:03:34 --> 404 Page Not Found: Img/login-form__bg.png
+INFO - 2024-12-17 10:03:41 --> Config Class Initialized
+INFO - 2024-12-17 10:03:41 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:03:41 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:03:41 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:03:41 --> URI Class Initialized
+INFO - 2024-12-17 10:03:41 --> Router Class Initialized
+INFO - 2024-12-17 10:03:41 --> Output Class Initialized
+INFO - 2024-12-17 10:03:41 --> Security Class Initialized
+DEBUG - 2024-12-17 10:03:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:03:41 --> Input Class Initialized
+INFO - 2024-12-17 10:03:41 --> Language Class Initialized
+INFO - 2024-12-17 10:03:41 --> Loader Class Initialized
+INFO - 2024-12-17 10:03:41 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:03:41 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:03:41 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:03:41 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:03:41 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:03:41 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:03:41 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:03:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:03:41 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:03:41 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:03:41 --> Cart Class Initialized
+INFO - 2024-12-17 10:03:41 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:03:41 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:03:41 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:03:41 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:03:41 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:03:41 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:03:41 --> Controller Class Initialized
+INFO - 2024-12-17 10:03:41 --> Model "Auth" initialized
+INFO - 2024-12-17 10:03:41 --> Email Class Initialized
+INFO - 2024-12-17 10:03:42 --> Language file loaded: language/english/email_lang.php
+INFO - 2024-12-17 10:03:48 --> Config Class Initialized
+INFO - 2024-12-17 10:03:48 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:03:48 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:03:48 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:03:48 --> URI Class Initialized
+INFO - 2024-12-17 10:03:48 --> Router Class Initialized
+INFO - 2024-12-17 10:03:48 --> Output Class Initialized
+INFO - 2024-12-17 10:03:48 --> Security Class Initialized
+DEBUG - 2024-12-17 10:03:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:03:48 --> Input Class Initialized
+INFO - 2024-12-17 10:03:48 --> Language Class Initialized
+INFO - 2024-12-17 10:03:48 --> Loader Class Initialized
+INFO - 2024-12-17 10:03:48 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:03:48 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:03:48 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:03:48 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:03:48 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:03:48 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:03:48 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:03:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:03:48 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:03:48 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:03:48 --> Cart Class Initialized
+INFO - 2024-12-17 10:03:48 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:03:48 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:03:48 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:03:48 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:03:48 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:03:48 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:03:48 --> Controller Class Initialized
+INFO - 2024-12-17 10:03:48 --> Model "Auth" initialized
+INFO - 2024-12-17 10:03:48 --> Email Class Initialized
+INFO - 2024-12-17 10:03:48 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\forgot_password.php
+INFO - 2024-12-17 10:03:48 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\layout_landing.php
+INFO - 2024-12-17 10:03:48 --> Final output sent to browser
+DEBUG - 2024-12-17 10:03:48 --> Total execution time: 0.0727
+INFO - 2024-12-17 10:03:48 --> Config Class Initialized
+INFO - 2024-12-17 10:03:48 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:03:48 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:03:48 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:03:48 --> Config Class Initialized
+INFO - 2024-12-17 10:03:48 --> Hooks Class Initialized
+INFO - 2024-12-17 10:03:48 --> URI Class Initialized
+INFO - 2024-12-17 10:03:48 --> Router Class Initialized
+DEBUG - 2024-12-17 10:03:48 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:03:48 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:03:48 --> URI Class Initialized
+INFO - 2024-12-17 10:03:48 --> Output Class Initialized
+INFO - 2024-12-17 10:03:48 --> Router Class Initialized
+INFO - 2024-12-17 10:03:48 --> Security Class Initialized
+DEBUG - 2024-12-17 10:03:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:03:48 --> Output Class Initialized
+INFO - 2024-12-17 10:03:48 --> Input Class Initialized
+INFO - 2024-12-17 10:03:48 --> Language Class Initialized
+INFO - 2024-12-17 10:03:48 --> Security Class Initialized
+ERROR - 2024-12-17 10:03:48 --> 404 Page Not Found: Assets/assets-landing
+DEBUG - 2024-12-17 10:03:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:03:48 --> Input Class Initialized
+INFO - 2024-12-17 10:03:48 --> Language Class Initialized
+ERROR - 2024-12-17 10:03:48 --> 404 Page Not Found: Path/to
+INFO - 2024-12-17 10:03:48 --> Config Class Initialized
+INFO - 2024-12-17 10:03:48 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:03:48 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:03:48 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:03:48 --> URI Class Initialized
+INFO - 2024-12-17 10:03:48 --> Router Class Initialized
+INFO - 2024-12-17 10:03:48 --> Output Class Initialized
+INFO - 2024-12-17 10:03:48 --> Security Class Initialized
+DEBUG - 2024-12-17 10:03:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:03:48 --> Input Class Initialized
+INFO - 2024-12-17 10:03:48 --> Language Class Initialized
+ERROR - 2024-12-17 10:03:48 --> 404 Page Not Found: Img/login-form__bg.png
+INFO - 2024-12-17 10:04:19 --> Config Class Initialized
+INFO - 2024-12-17 10:04:19 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:04:19 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:04:19 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:04:19 --> URI Class Initialized
+INFO - 2024-12-17 10:04:19 --> Router Class Initialized
+INFO - 2024-12-17 10:04:19 --> Output Class Initialized
+INFO - 2024-12-17 10:04:19 --> Security Class Initialized
+DEBUG - 2024-12-17 10:04:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:04:19 --> Input Class Initialized
+INFO - 2024-12-17 10:04:19 --> Language Class Initialized
+INFO - 2024-12-17 10:04:19 --> Loader Class Initialized
+INFO - 2024-12-17 10:04:19 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:04:19 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:04:19 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:04:19 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:04:19 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:04:19 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:04:19 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:04:19 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:04:19 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:04:19 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:04:19 --> Cart Class Initialized
+INFO - 2024-12-17 10:04:19 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:04:19 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:04:19 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:04:19 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:04:19 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:04:19 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:04:19 --> Controller Class Initialized
+INFO - 2024-12-17 10:04:19 --> Model "Auth" initialized
+INFO - 2024-12-17 10:04:19 --> Email Class Initialized
+INFO - 2024-12-17 10:04:19 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\reset_password.php
+INFO - 2024-12-17 10:04:19 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\layout_landing.php
+INFO - 2024-12-17 10:04:19 --> Final output sent to browser
+DEBUG - 2024-12-17 10:04:19 --> Total execution time: 0.0868
+INFO - 2024-12-17 10:04:19 --> Config Class Initialized
+INFO - 2024-12-17 10:04:19 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:04:19 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:04:19 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:04:19 --> URI Class Initialized
+INFO - 2024-12-17 10:04:19 --> Router Class Initialized
+INFO - 2024-12-17 10:04:19 --> Output Class Initialized
+INFO - 2024-12-17 10:04:19 --> Security Class Initialized
+DEBUG - 2024-12-17 10:04:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:04:19 --> Input Class Initialized
+INFO - 2024-12-17 10:04:19 --> Language Class Initialized
+ERROR - 2024-12-17 10:04:19 --> 404 Page Not Found: Assets/assets-landing
+INFO - 2024-12-17 10:04:19 --> Config Class Initialized
+INFO - 2024-12-17 10:04:19 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:04:19 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:04:19 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:04:19 --> URI Class Initialized
+INFO - 2024-12-17 10:04:19 --> Router Class Initialized
+INFO - 2024-12-17 10:04:19 --> Output Class Initialized
+INFO - 2024-12-17 10:04:19 --> Security Class Initialized
+DEBUG - 2024-12-17 10:04:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:04:19 --> Input Class Initialized
+INFO - 2024-12-17 10:04:19 --> Language Class Initialized
+ERROR - 2024-12-17 10:04:19 --> 404 Page Not Found: Forgotpassword/path
+INFO - 2024-12-17 10:04:19 --> Config Class Initialized
+INFO - 2024-12-17 10:04:19 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:04:19 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:04:19 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:04:19 --> URI Class Initialized
+INFO - 2024-12-17 10:04:19 --> Router Class Initialized
+INFO - 2024-12-17 10:04:19 --> Output Class Initialized
+INFO - 2024-12-17 10:04:19 --> Security Class Initialized
+DEBUG - 2024-12-17 10:04:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:04:19 --> Input Class Initialized
+INFO - 2024-12-17 10:04:19 --> Language Class Initialized
+ERROR - 2024-12-17 10:04:19 --> 404 Page Not Found: Forgotpassword/img
+INFO - 2024-12-17 10:04:39 --> Config Class Initialized
+INFO - 2024-12-17 10:04:39 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:04:39 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:04:39 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:04:39 --> URI Class Initialized
+INFO - 2024-12-17 10:04:39 --> Router Class Initialized
+INFO - 2024-12-17 10:04:39 --> Output Class Initialized
+INFO - 2024-12-17 10:04:39 --> Security Class Initialized
+DEBUG - 2024-12-17 10:04:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:04:39 --> Input Class Initialized
+INFO - 2024-12-17 10:04:39 --> Language Class Initialized
+INFO - 2024-12-17 10:04:39 --> Loader Class Initialized
+INFO - 2024-12-17 10:04:39 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:04:39 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:04:39 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:04:39 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:04:39 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:04:39 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:04:39 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:04:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:04:39 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:04:39 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:04:39 --> Cart Class Initialized
+INFO - 2024-12-17 10:04:39 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:04:39 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:04:39 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:04:39 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:04:39 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:04:39 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:04:39 --> Controller Class Initialized
+INFO - 2024-12-17 10:04:39 --> Model "Auth" initialized
+INFO - 2024-12-17 10:04:39 --> Email Class Initialized
+INFO - 2024-12-17 10:04:39 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\reset_password.php
+INFO - 2024-12-17 10:04:39 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\layout_landing.php
+INFO - 2024-12-17 10:04:39 --> Final output sent to browser
+DEBUG - 2024-12-17 10:04:39 --> Total execution time: 0.0865
+INFO - 2024-12-17 10:04:39 --> Config Class Initialized
+INFO - 2024-12-17 10:04:39 --> Hooks Class Initialized
+INFO - 2024-12-17 10:04:39 --> Config Class Initialized
+INFO - 2024-12-17 10:04:39 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:04:39 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:04:39 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:04:39 --> URI Class Initialized
+INFO - 2024-12-17 10:04:39 --> Router Class Initialized
+DEBUG - 2024-12-17 10:04:39 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:04:39 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:04:39 --> URI Class Initialized
+INFO - 2024-12-17 10:04:39 --> Output Class Initialized
+INFO - 2024-12-17 10:04:39 --> Router Class Initialized
+INFO - 2024-12-17 10:04:39 --> Security Class Initialized
+INFO - 2024-12-17 10:04:39 --> Output Class Initialized
+DEBUG - 2024-12-17 10:04:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:04:39 --> Input Class Initialized
+INFO - 2024-12-17 10:04:39 --> Security Class Initialized
+INFO - 2024-12-17 10:04:39 --> Language Class Initialized
+DEBUG - 2024-12-17 10:04:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:04:39 --> Input Class Initialized
+ERROR - 2024-12-17 10:04:39 --> 404 Page Not Found: Forgotpassword/path
+INFO - 2024-12-17 10:04:39 --> Language Class Initialized
+ERROR - 2024-12-17 10:04:39 --> 404 Page Not Found: Assets/assets-landing
+INFO - 2024-12-17 10:04:40 --> Config Class Initialized
+INFO - 2024-12-17 10:04:40 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:04:40 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:04:40 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:04:40 --> URI Class Initialized
+INFO - 2024-12-17 10:04:40 --> Router Class Initialized
+INFO - 2024-12-17 10:04:40 --> Output Class Initialized
+INFO - 2024-12-17 10:04:40 --> Security Class Initialized
+DEBUG - 2024-12-17 10:04:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:04:40 --> Input Class Initialized
+INFO - 2024-12-17 10:04:40 --> Language Class Initialized
+ERROR - 2024-12-17 10:04:40 --> 404 Page Not Found: Forgotpassword/img
+INFO - 2024-12-17 10:04:49 --> Config Class Initialized
+INFO - 2024-12-17 10:04:49 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:04:49 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:04:49 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:04:49 --> URI Class Initialized
+INFO - 2024-12-17 10:04:49 --> Router Class Initialized
+INFO - 2024-12-17 10:04:49 --> Output Class Initialized
+INFO - 2024-12-17 10:04:49 --> Security Class Initialized
+DEBUG - 2024-12-17 10:04:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:04:49 --> Input Class Initialized
+INFO - 2024-12-17 10:04:49 --> Language Class Initialized
+INFO - 2024-12-17 10:04:49 --> Loader Class Initialized
+INFO - 2024-12-17 10:04:49 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:04:49 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:04:49 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:04:49 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:04:49 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:04:49 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:04:49 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:04:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:04:49 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:04:49 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:04:49 --> Cart Class Initialized
+INFO - 2024-12-17 10:04:49 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:04:49 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:04:49 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:04:49 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:04:49 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:04:49 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:04:49 --> Controller Class Initialized
+INFO - 2024-12-17 10:04:49 --> Model "Auth" initialized
+INFO - 2024-12-17 10:04:49 --> Email Class Initialized
+INFO - 2024-12-17 10:04:49 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2024-12-17 10:04:49 --> Config Class Initialized
+INFO - 2024-12-17 10:04:49 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:04:49 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:04:49 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:04:49 --> URI Class Initialized
+INFO - 2024-12-17 10:04:49 --> Router Class Initialized
+INFO - 2024-12-17 10:04:49 --> Output Class Initialized
+INFO - 2024-12-17 10:04:49 --> Security Class Initialized
+DEBUG - 2024-12-17 10:04:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:04:49 --> Input Class Initialized
+INFO - 2024-12-17 10:04:49 --> Language Class Initialized
+INFO - 2024-12-17 10:04:49 --> Loader Class Initialized
+INFO - 2024-12-17 10:04:49 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:04:49 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:04:49 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:04:49 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:04:49 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:04:49 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:04:49 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:04:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:04:49 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:04:49 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:04:49 --> Cart Class Initialized
+INFO - 2024-12-17 10:04:49 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:04:49 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:04:49 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:04:49 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:04:49 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:04:49 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:04:49 --> Controller Class Initialized
+INFO - 2024-12-17 10:04:49 --> Model "Auth" initialized
+INFO - 2024-12-17 10:04:49 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\landing-page/login.php
+INFO - 2024-12-17 10:04:49 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\layout_landing.php
+INFO - 2024-12-17 10:04:49 --> Final output sent to browser
+DEBUG - 2024-12-17 10:04:49 --> Total execution time: 0.0636
+INFO - 2024-12-17 10:04:50 --> Config Class Initialized
+INFO - 2024-12-17 10:04:50 --> Config Class Initialized
+INFO - 2024-12-17 10:04:50 --> Hooks Class Initialized
+INFO - 2024-12-17 10:04:50 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:04:50 --> UTF-8 Support Enabled
+DEBUG - 2024-12-17 10:04:50 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:04:50 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:04:50 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:04:50 --> URI Class Initialized
+INFO - 2024-12-17 10:04:50 --> URI Class Initialized
+INFO - 2024-12-17 10:04:50 --> Router Class Initialized
+INFO - 2024-12-17 10:04:50 --> Router Class Initialized
+INFO - 2024-12-17 10:04:50 --> Output Class Initialized
+INFO - 2024-12-17 10:04:50 --> Output Class Initialized
+INFO - 2024-12-17 10:04:50 --> Security Class Initialized
+INFO - 2024-12-17 10:04:50 --> Security Class Initialized
+DEBUG - 2024-12-17 10:04:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:04:50 --> Input Class Initialized
+DEBUG - 2024-12-17 10:04:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:04:50 --> Input Class Initialized
+INFO - 2024-12-17 10:04:50 --> Language Class Initialized
+INFO - 2024-12-17 10:04:50 --> Language Class Initialized
+ERROR - 2024-12-17 10:04:50 --> 404 Page Not Found: Assets/assets-landing
+ERROR - 2024-12-17 10:04:50 --> 404 Page Not Found: Path/to
+INFO - 2024-12-17 10:04:50 --> Config Class Initialized
+INFO - 2024-12-17 10:04:50 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:04:50 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:04:50 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:04:50 --> URI Class Initialized
+INFO - 2024-12-17 10:04:50 --> Router Class Initialized
+INFO - 2024-12-17 10:04:50 --> Output Class Initialized
+INFO - 2024-12-17 10:04:50 --> Security Class Initialized
+DEBUG - 2024-12-17 10:04:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:04:50 --> Input Class Initialized
+INFO - 2024-12-17 10:04:50 --> Language Class Initialized
+ERROR - 2024-12-17 10:04:50 --> 404 Page Not Found: Img/login-form__bg.png
+INFO - 2024-12-17 10:23:01 --> Config Class Initialized
+INFO - 2024-12-17 10:23:01 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:23:01 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:23:01 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:23:01 --> URI Class Initialized
+DEBUG - 2024-12-17 10:23:01 --> No URI present. Default controller set.
+INFO - 2024-12-17 10:23:01 --> Router Class Initialized
+INFO - 2024-12-17 10:23:01 --> Output Class Initialized
+INFO - 2024-12-17 10:23:01 --> Security Class Initialized
+DEBUG - 2024-12-17 10:23:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:23:01 --> Input Class Initialized
+INFO - 2024-12-17 10:23:01 --> Language Class Initialized
+INFO - 2024-12-17 10:23:01 --> Loader Class Initialized
+INFO - 2024-12-17 10:23:01 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:23:01 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:23:01 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:23:01 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:23:01 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:23:01 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:23:01 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:23:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:23:01 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:23:01 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:23:01 --> Cart Class Initialized
+INFO - 2024-12-17 10:23:01 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:23:01 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:23:01 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:23:01 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:23:01 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:23:01 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:23:01 --> Controller Class Initialized
+INFO - 2024-12-17 10:23:01 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\landing-page/home/index.php
+INFO - 2024-12-17 10:23:01 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\layout_landing.php
+INFO - 2024-12-17 10:23:01 --> Final output sent to browser
+DEBUG - 2024-12-17 10:23:01 --> Total execution time: 0.0900
+INFO - 2024-12-17 10:23:01 --> Config Class Initialized
+INFO - 2024-12-17 10:23:01 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:23:01 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:23:01 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:23:01 --> URI Class Initialized
+INFO - 2024-12-17 10:23:01 --> Router Class Initialized
+INFO - 2024-12-17 10:23:01 --> Output Class Initialized
+INFO - 2024-12-17 10:23:01 --> Security Class Initialized
+DEBUG - 2024-12-17 10:23:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:23:01 --> Input Class Initialized
+INFO - 2024-12-17 10:23:01 --> Language Class Initialized
+ERROR - 2024-12-17 10:23:01 --> 404 Page Not Found: Assets/assets-landing
+INFO - 2024-12-17 10:23:01 --> Config Class Initialized
+INFO - 2024-12-17 10:23:01 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:23:01 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:23:01 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:23:01 --> URI Class Initialized
+INFO - 2024-12-17 10:23:01 --> Router Class Initialized
+INFO - 2024-12-17 10:23:01 --> Output Class Initialized
+INFO - 2024-12-17 10:23:01 --> Security Class Initialized
+DEBUG - 2024-12-17 10:23:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:23:01 --> Input Class Initialized
+INFO - 2024-12-17 10:23:01 --> Language Class Initialized
+ERROR - 2024-12-17 10:23:01 --> 404 Page Not Found: None/index
+INFO - 2024-12-17 10:23:07 --> Config Class Initialized
+INFO - 2024-12-17 10:23:07 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:23:07 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:23:07 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:23:07 --> URI Class Initialized
+INFO - 2024-12-17 10:23:07 --> Router Class Initialized
+INFO - 2024-12-17 10:23:07 --> Output Class Initialized
+INFO - 2024-12-17 10:23:07 --> Security Class Initialized
+DEBUG - 2024-12-17 10:23:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:23:07 --> Input Class Initialized
+INFO - 2024-12-17 10:23:07 --> Language Class Initialized
+INFO - 2024-12-17 10:23:07 --> Loader Class Initialized
+INFO - 2024-12-17 10:23:07 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:23:07 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:23:07 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:23:07 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:23:07 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:23:07 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:23:07 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:23:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:23:07 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:23:07 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:23:07 --> Cart Class Initialized
+INFO - 2024-12-17 10:23:07 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:23:07 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:23:07 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:23:07 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:23:07 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:23:07 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:23:07 --> Controller Class Initialized
+INFO - 2024-12-17 10:23:07 --> Model "Auth" initialized
+DEBUG - 2024-12-17 10:23:07 --> Cart class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:23:07 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\landing-page/shop/index.php
+INFO - 2024-12-17 10:23:07 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\layout_landing.php
+INFO - 2024-12-17 10:23:07 --> Final output sent to browser
+DEBUG - 2024-12-17 10:23:07 --> Total execution time: 0.0892
+INFO - 2024-12-17 10:23:07 --> Config Class Initialized
+INFO - 2024-12-17 10:23:07 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:23:07 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:23:07 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:23:07 --> URI Class Initialized
+INFO - 2024-12-17 10:23:07 --> Router Class Initialized
+INFO - 2024-12-17 10:23:07 --> Output Class Initialized
+INFO - 2024-12-17 10:23:07 --> Security Class Initialized
+DEBUG - 2024-12-17 10:23:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:23:07 --> Input Class Initialized
+INFO - 2024-12-17 10:23:07 --> Language Class Initialized
+ERROR - 2024-12-17 10:23:07 --> 404 Page Not Found: Assets/assets-landing
+INFO - 2024-12-17 10:23:09 --> Config Class Initialized
+INFO - 2024-12-17 10:23:09 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:23:09 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:23:09 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:23:09 --> URI Class Initialized
+INFO - 2024-12-17 10:23:09 --> Router Class Initialized
+INFO - 2024-12-17 10:23:09 --> Output Class Initialized
+INFO - 2024-12-17 10:23:09 --> Security Class Initialized
+DEBUG - 2024-12-17 10:23:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:23:09 --> Input Class Initialized
+INFO - 2024-12-17 10:23:09 --> Language Class Initialized
+INFO - 2024-12-17 10:23:09 --> Loader Class Initialized
+INFO - 2024-12-17 10:23:09 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:23:09 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:23:09 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:23:09 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:23:09 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:23:09 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:23:09 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:23:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:23:09 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:23:09 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:23:09 --> Cart Class Initialized
+INFO - 2024-12-17 10:23:09 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:23:09 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:23:09 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:23:09 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:23:09 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:23:09 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:23:09 --> Controller Class Initialized
+INFO - 2024-12-17 10:23:09 --> Model "Auth" initialized
+INFO - 2024-12-17 10:23:09 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\landing-page/login.php
+INFO - 2024-12-17 10:23:09 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\layout_landing.php
+INFO - 2024-12-17 10:23:09 --> Final output sent to browser
+DEBUG - 2024-12-17 10:23:09 --> Total execution time: 0.0740
+INFO - 2024-12-17 10:23:09 --> Config Class Initialized
+INFO - 2024-12-17 10:23:09 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:23:09 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:23:09 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:23:09 --> Config Class Initialized
+INFO - 2024-12-17 10:23:09 --> Hooks Class Initialized
+INFO - 2024-12-17 10:23:09 --> URI Class Initialized
+INFO - 2024-12-17 10:23:09 --> Router Class Initialized
+DEBUG - 2024-12-17 10:23:09 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:23:09 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:23:09 --> Output Class Initialized
+INFO - 2024-12-17 10:23:09 --> URI Class Initialized
+INFO - 2024-12-17 10:23:09 --> Security Class Initialized
+INFO - 2024-12-17 10:23:09 --> Router Class Initialized
+DEBUG - 2024-12-17 10:23:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:23:09 --> Input Class Initialized
+INFO - 2024-12-17 10:23:09 --> Language Class Initialized
+INFO - 2024-12-17 10:23:09 --> Output Class Initialized
+ERROR - 2024-12-17 10:23:09 --> 404 Page Not Found: Assets/assets-landing
+INFO - 2024-12-17 10:23:09 --> Security Class Initialized
+DEBUG - 2024-12-17 10:23:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:23:09 --> Input Class Initialized
+INFO - 2024-12-17 10:23:09 --> Language Class Initialized
+ERROR - 2024-12-17 10:23:09 --> 404 Page Not Found: Path/to
+INFO - 2024-12-17 10:23:10 --> Config Class Initialized
+INFO - 2024-12-17 10:23:10 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:23:10 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:23:10 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:23:10 --> URI Class Initialized
+INFO - 2024-12-17 10:23:10 --> Router Class Initialized
+INFO - 2024-12-17 10:23:10 --> Output Class Initialized
+INFO - 2024-12-17 10:23:10 --> Security Class Initialized
+DEBUG - 2024-12-17 10:23:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:23:10 --> Input Class Initialized
+INFO - 2024-12-17 10:23:10 --> Language Class Initialized
+ERROR - 2024-12-17 10:23:10 --> 404 Page Not Found: Img/login-form__bg.png
+INFO - 2024-12-17 10:23:12 --> Config Class Initialized
+INFO - 2024-12-17 10:23:12 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:23:12 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:23:12 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:23:12 --> URI Class Initialized
+INFO - 2024-12-17 10:23:12 --> Router Class Initialized
+INFO - 2024-12-17 10:23:12 --> Output Class Initialized
+INFO - 2024-12-17 10:23:12 --> Security Class Initialized
+DEBUG - 2024-12-17 10:23:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:23:12 --> Input Class Initialized
+INFO - 2024-12-17 10:23:12 --> Language Class Initialized
+INFO - 2024-12-17 10:23:12 --> Loader Class Initialized
+INFO - 2024-12-17 10:23:12 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:23:12 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:23:12 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:23:12 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:23:12 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:23:12 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:23:12 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:23:12 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:23:12 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:23:12 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:23:12 --> Cart Class Initialized
+INFO - 2024-12-17 10:23:12 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:23:12 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:23:12 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:23:12 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:23:12 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:23:12 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:23:12 --> Controller Class Initialized
+INFO - 2024-12-17 10:23:12 --> Model "Auth" initialized
+INFO - 2024-12-17 10:23:12 --> Email Class Initialized
+INFO - 2024-12-17 10:23:12 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\forgot_password.php
+INFO - 2024-12-17 10:23:12 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\layout_landing.php
+INFO - 2024-12-17 10:23:12 --> Final output sent to browser
+DEBUG - 2024-12-17 10:23:12 --> Total execution time: 0.0843
+INFO - 2024-12-17 10:23:12 --> Config Class Initialized
+INFO - 2024-12-17 10:23:12 --> Hooks Class Initialized
+INFO - 2024-12-17 10:23:12 --> Config Class Initialized
+INFO - 2024-12-17 10:23:12 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:23:12 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:23:12 --> Utf8 Class Initialized
+DEBUG - 2024-12-17 10:23:12 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:23:12 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:23:12 --> URI Class Initialized
+INFO - 2024-12-17 10:23:12 --> URI Class Initialized
+INFO - 2024-12-17 10:23:12 --> Router Class Initialized
+INFO - 2024-12-17 10:23:12 --> Router Class Initialized
+INFO - 2024-12-17 10:23:12 --> Output Class Initialized
+INFO - 2024-12-17 10:23:12 --> Output Class Initialized
+INFO - 2024-12-17 10:23:12 --> Security Class Initialized
+INFO - 2024-12-17 10:23:12 --> Security Class Initialized
+DEBUG - 2024-12-17 10:23:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:23:12 --> Input Class Initialized
+DEBUG - 2024-12-17 10:23:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:23:12 --> Input Class Initialized
+INFO - 2024-12-17 10:23:12 --> Language Class Initialized
+INFO - 2024-12-17 10:23:12 --> Language Class Initialized
+ERROR - 2024-12-17 10:23:12 --> 404 Page Not Found: Path/to
+ERROR - 2024-12-17 10:23:12 --> 404 Page Not Found: Assets/assets-landing
+INFO - 2024-12-17 10:23:12 --> Config Class Initialized
+INFO - 2024-12-17 10:23:12 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:23:12 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:23:12 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:23:12 --> URI Class Initialized
+INFO - 2024-12-17 10:23:12 --> Router Class Initialized
+INFO - 2024-12-17 10:23:12 --> Output Class Initialized
+INFO - 2024-12-17 10:23:12 --> Security Class Initialized
+DEBUG - 2024-12-17 10:23:12 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:23:12 --> Input Class Initialized
+INFO - 2024-12-17 10:23:12 --> Language Class Initialized
+ERROR - 2024-12-17 10:23:12 --> 404 Page Not Found: Img/login-form__bg.png
+INFO - 2024-12-17 10:23:18 --> Config Class Initialized
+INFO - 2024-12-17 10:23:18 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:23:18 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:23:18 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:23:18 --> URI Class Initialized
+INFO - 2024-12-17 10:23:18 --> Router Class Initialized
+INFO - 2024-12-17 10:23:18 --> Output Class Initialized
+INFO - 2024-12-17 10:23:18 --> Security Class Initialized
+DEBUG - 2024-12-17 10:23:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:23:18 --> Input Class Initialized
+INFO - 2024-12-17 10:23:18 --> Language Class Initialized
+INFO - 2024-12-17 10:23:18 --> Loader Class Initialized
+INFO - 2024-12-17 10:23:18 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:23:18 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:23:18 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:23:18 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:23:18 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:23:18 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:23:18 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:23:18 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:23:18 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:23:18 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:23:18 --> Cart Class Initialized
+INFO - 2024-12-17 10:23:18 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:23:18 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:23:18 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:23:18 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:23:18 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:23:18 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:23:18 --> Controller Class Initialized
+INFO - 2024-12-17 10:23:18 --> Model "Auth" initialized
+INFO - 2024-12-17 10:23:18 --> Email Class Initialized
+INFO - 2024-12-17 10:23:18 --> Language file loaded: language/english/email_lang.php
+INFO - 2024-12-17 10:23:23 --> Config Class Initialized
+INFO - 2024-12-17 10:23:23 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:23:23 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:23:23 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:23:23 --> URI Class Initialized
+INFO - 2024-12-17 10:23:23 --> Router Class Initialized
+INFO - 2024-12-17 10:23:23 --> Output Class Initialized
+INFO - 2024-12-17 10:23:23 --> Security Class Initialized
+DEBUG - 2024-12-17 10:23:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:23:23 --> Input Class Initialized
+INFO - 2024-12-17 10:23:23 --> Language Class Initialized
+INFO - 2024-12-17 10:23:23 --> Loader Class Initialized
+INFO - 2024-12-17 10:23:23 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:23:23 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:23:23 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:23:23 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:23:23 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:23:23 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:23:23 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:23:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:23:23 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:23:23 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:23:23 --> Cart Class Initialized
+INFO - 2024-12-17 10:23:23 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:23:23 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:23:23 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:23:23 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:23:23 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:23:23 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:23:23 --> Controller Class Initialized
+INFO - 2024-12-17 10:23:23 --> Model "Auth" initialized
+INFO - 2024-12-17 10:23:23 --> Email Class Initialized
+INFO - 2024-12-17 10:23:23 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\forgot_password.php
+INFO - 2024-12-17 10:23:23 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\layout_landing.php
+INFO - 2024-12-17 10:23:23 --> Final output sent to browser
+DEBUG - 2024-12-17 10:23:23 --> Total execution time: 0.0716
+INFO - 2024-12-17 10:23:23 --> Config Class Initialized
+INFO - 2024-12-17 10:23:23 --> Hooks Class Initialized
+INFO - 2024-12-17 10:23:23 --> Config Class Initialized
+INFO - 2024-12-17 10:23:23 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:23:23 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:23:23 --> Utf8 Class Initialized
+DEBUG - 2024-12-17 10:23:23 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:23:23 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:23:23 --> URI Class Initialized
+INFO - 2024-12-17 10:23:23 --> URI Class Initialized
+INFO - 2024-12-17 10:23:23 --> Router Class Initialized
+INFO - 2024-12-17 10:23:23 --> Router Class Initialized
+INFO - 2024-12-17 10:23:23 --> Output Class Initialized
+INFO - 2024-12-17 10:23:23 --> Output Class Initialized
+INFO - 2024-12-17 10:23:23 --> Security Class Initialized
+INFO - 2024-12-17 10:23:23 --> Security Class Initialized
+DEBUG - 2024-12-17 10:23:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:23:23 --> Input Class Initialized
+INFO - 2024-12-17 10:23:23 --> Language Class Initialized
+DEBUG - 2024-12-17 10:23:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:23:23 --> Input Class Initialized
+ERROR - 2024-12-17 10:23:23 --> 404 Page Not Found: Assets/assets-landing
+INFO - 2024-12-17 10:23:23 --> Language Class Initialized
+ERROR - 2024-12-17 10:23:23 --> 404 Page Not Found: Path/to
+INFO - 2024-12-17 10:23:23 --> Config Class Initialized
+INFO - 2024-12-17 10:23:23 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:23:23 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:23:23 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:23:23 --> URI Class Initialized
+INFO - 2024-12-17 10:23:23 --> Router Class Initialized
+INFO - 2024-12-17 10:23:23 --> Output Class Initialized
+INFO - 2024-12-17 10:23:23 --> Security Class Initialized
+DEBUG - 2024-12-17 10:23:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:23:23 --> Input Class Initialized
+INFO - 2024-12-17 10:23:23 --> Language Class Initialized
+ERROR - 2024-12-17 10:23:23 --> 404 Page Not Found: Img/login-form__bg.png
+INFO - 2024-12-17 10:24:25 --> Config Class Initialized
+INFO - 2024-12-17 10:24:25 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:24:25 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:24:25 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:24:25 --> URI Class Initialized
+INFO - 2024-12-17 10:24:25 --> Router Class Initialized
+INFO - 2024-12-17 10:24:25 --> Output Class Initialized
+INFO - 2024-12-17 10:24:25 --> Security Class Initialized
+DEBUG - 2024-12-17 10:24:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:24:25 --> Input Class Initialized
+INFO - 2024-12-17 10:24:25 --> Language Class Initialized
+INFO - 2024-12-17 10:24:25 --> Loader Class Initialized
+INFO - 2024-12-17 10:24:25 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:24:25 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:24:25 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:24:25 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:24:25 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:24:25 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:24:25 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:24:25 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:24:25 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:24:25 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:24:25 --> Cart Class Initialized
+INFO - 2024-12-17 10:24:25 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:24:25 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:24:25 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:24:25 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:24:25 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:24:25 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:24:25 --> Controller Class Initialized
+INFO - 2024-12-17 10:24:25 --> Model "Auth" initialized
+INFO - 2024-12-17 10:24:25 --> Email Class Initialized
+INFO - 2024-12-17 10:24:26 --> Language file loaded: language/english/email_lang.php
+INFO - 2024-12-17 10:24:31 --> Config Class Initialized
+INFO - 2024-12-17 10:24:31 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:24:31 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:24:31 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:24:31 --> URI Class Initialized
+INFO - 2024-12-17 10:24:31 --> Router Class Initialized
+INFO - 2024-12-17 10:24:31 --> Output Class Initialized
+INFO - 2024-12-17 10:24:31 --> Security Class Initialized
+DEBUG - 2024-12-17 10:24:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:24:31 --> Input Class Initialized
+INFO - 2024-12-17 10:24:31 --> Language Class Initialized
+INFO - 2024-12-17 10:24:31 --> Loader Class Initialized
+INFO - 2024-12-17 10:24:31 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:24:31 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:24:31 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:24:31 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:24:31 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:24:31 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:24:31 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:24:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:24:31 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:24:31 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:24:31 --> Cart Class Initialized
+INFO - 2024-12-17 10:24:31 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:24:31 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:24:31 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:24:31 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:24:31 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:24:31 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:24:31 --> Controller Class Initialized
+INFO - 2024-12-17 10:24:31 --> Model "Auth" initialized
+INFO - 2024-12-17 10:24:31 --> Email Class Initialized
+INFO - 2024-12-17 10:24:31 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\forgot_password.php
+INFO - 2024-12-17 10:24:31 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\layout_landing.php
+INFO - 2024-12-17 10:24:31 --> Final output sent to browser
+DEBUG - 2024-12-17 10:24:31 --> Total execution time: 0.0737
+INFO - 2024-12-17 10:24:31 --> Config Class Initialized
+INFO - 2024-12-17 10:24:31 --> Hooks Class Initialized
+INFO - 2024-12-17 10:24:31 --> Config Class Initialized
+INFO - 2024-12-17 10:24:31 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:24:31 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:24:31 --> Utf8 Class Initialized
+DEBUG - 2024-12-17 10:24:31 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:24:31 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:24:31 --> URI Class Initialized
+INFO - 2024-12-17 10:24:31 --> URI Class Initialized
+INFO - 2024-12-17 10:24:31 --> Router Class Initialized
+INFO - 2024-12-17 10:24:31 --> Router Class Initialized
+INFO - 2024-12-17 10:24:31 --> Output Class Initialized
+INFO - 2024-12-17 10:24:31 --> Output Class Initialized
+INFO - 2024-12-17 10:24:31 --> Security Class Initialized
+INFO - 2024-12-17 10:24:31 --> Security Class Initialized
+DEBUG - 2024-12-17 10:24:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:24:31 --> Input Class Initialized
+DEBUG - 2024-12-17 10:24:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:24:31 --> Language Class Initialized
+INFO - 2024-12-17 10:24:31 --> Input Class Initialized
+ERROR - 2024-12-17 10:24:31 --> 404 Page Not Found: Assets/assets-landing
+INFO - 2024-12-17 10:24:31 --> Language Class Initialized
+ERROR - 2024-12-17 10:24:31 --> 404 Page Not Found: Path/to
+INFO - 2024-12-17 10:24:31 --> Config Class Initialized
+INFO - 2024-12-17 10:24:31 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:24:31 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:24:31 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:24:31 --> URI Class Initialized
+INFO - 2024-12-17 10:24:31 --> Router Class Initialized
+INFO - 2024-12-17 10:24:31 --> Output Class Initialized
+INFO - 2024-12-17 10:24:31 --> Security Class Initialized
+DEBUG - 2024-12-17 10:24:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:24:31 --> Input Class Initialized
+INFO - 2024-12-17 10:24:31 --> Language Class Initialized
+ERROR - 2024-12-17 10:24:31 --> 404 Page Not Found: Img/login-form__bg.png
+INFO - 2024-12-17 10:24:55 --> Config Class Initialized
+INFO - 2024-12-17 10:24:55 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:24:55 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:24:55 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:24:55 --> URI Class Initialized
+INFO - 2024-12-17 10:24:55 --> Router Class Initialized
+INFO - 2024-12-17 10:24:55 --> Output Class Initialized
+INFO - 2024-12-17 10:24:55 --> Security Class Initialized
+DEBUG - 2024-12-17 10:24:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:24:55 --> Input Class Initialized
+INFO - 2024-12-17 10:24:55 --> Language Class Initialized
+INFO - 2024-12-17 10:24:55 --> Loader Class Initialized
+INFO - 2024-12-17 10:24:55 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:24:55 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:24:55 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:24:55 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:24:55 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:24:55 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:24:55 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:24:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:24:56 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:24:56 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:24:56 --> Cart Class Initialized
+INFO - 2024-12-17 10:24:56 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:24:56 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:24:56 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:24:56 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:24:56 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:24:56 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:24:56 --> Controller Class Initialized
+INFO - 2024-12-17 10:24:56 --> Model "Auth" initialized
+INFO - 2024-12-17 10:24:56 --> Email Class Initialized
+INFO - 2024-12-17 10:24:56 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\reset_password.php
+INFO - 2024-12-17 10:24:56 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\layout_landing.php
+INFO - 2024-12-17 10:24:56 --> Final output sent to browser
+DEBUG - 2024-12-17 10:24:56 --> Total execution time: 0.0872
+INFO - 2024-12-17 10:24:56 --> Config Class Initialized
+INFO - 2024-12-17 10:24:56 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:24:56 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:24:56 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:24:56 --> URI Class Initialized
+INFO - 2024-12-17 10:24:56 --> Router Class Initialized
+INFO - 2024-12-17 10:24:56 --> Output Class Initialized
+INFO - 2024-12-17 10:24:56 --> Security Class Initialized
+DEBUG - 2024-12-17 10:24:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:24:56 --> Input Class Initialized
+INFO - 2024-12-17 10:24:56 --> Language Class Initialized
+ERROR - 2024-12-17 10:24:56 --> 404 Page Not Found: Assets/assets-landing
+INFO - 2024-12-17 10:24:56 --> Config Class Initialized
+INFO - 2024-12-17 10:24:56 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:24:56 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:24:56 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:24:56 --> URI Class Initialized
+INFO - 2024-12-17 10:24:56 --> Router Class Initialized
+INFO - 2024-12-17 10:24:56 --> Output Class Initialized
+INFO - 2024-12-17 10:24:56 --> Security Class Initialized
+DEBUG - 2024-12-17 10:24:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:24:56 --> Input Class Initialized
+INFO - 2024-12-17 10:24:56 --> Language Class Initialized
+ERROR - 2024-12-17 10:24:56 --> 404 Page Not Found: Forgotpassword/path
+INFO - 2024-12-17 10:24:56 --> Config Class Initialized
+INFO - 2024-12-17 10:24:56 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:24:56 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:24:56 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:24:56 --> URI Class Initialized
+INFO - 2024-12-17 10:24:56 --> Router Class Initialized
+INFO - 2024-12-17 10:24:56 --> Output Class Initialized
+INFO - 2024-12-17 10:24:56 --> Security Class Initialized
+DEBUG - 2024-12-17 10:24:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:24:56 --> Input Class Initialized
+INFO - 2024-12-17 10:24:56 --> Language Class Initialized
+ERROR - 2024-12-17 10:24:56 --> 404 Page Not Found: Forgotpassword/img
+INFO - 2024-12-17 10:25:08 --> Config Class Initialized
+INFO - 2024-12-17 10:25:08 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:25:08 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:25:08 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:25:08 --> URI Class Initialized
+INFO - 2024-12-17 10:25:08 --> Router Class Initialized
+INFO - 2024-12-17 10:25:08 --> Output Class Initialized
+INFO - 2024-12-17 10:25:08 --> Security Class Initialized
+DEBUG - 2024-12-17 10:25:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:25:08 --> Input Class Initialized
+INFO - 2024-12-17 10:25:08 --> Language Class Initialized
+INFO - 2024-12-17 10:25:08 --> Loader Class Initialized
+INFO - 2024-12-17 10:25:08 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:25:08 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:25:08 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:25:08 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:25:08 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:25:08 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:25:08 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:25:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:25:08 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:25:08 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:25:08 --> Cart Class Initialized
+INFO - 2024-12-17 10:25:08 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:25:08 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:25:08 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:25:08 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:25:08 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:25:08 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:25:08 --> Controller Class Initialized
+INFO - 2024-12-17 10:25:08 --> Model "Auth" initialized
+INFO - 2024-12-17 10:25:08 --> Email Class Initialized
+INFO - 2024-12-17 10:25:08 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2024-12-17 10:25:08 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\reset_password.php
+INFO - 2024-12-17 10:25:08 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\layout_landing.php
+INFO - 2024-12-17 10:25:08 --> Final output sent to browser
+DEBUG - 2024-12-17 10:25:08 --> Total execution time: 0.0938
+INFO - 2024-12-17 10:25:08 --> Config Class Initialized
+INFO - 2024-12-17 10:25:08 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:25:08 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:25:08 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:25:08 --> Config Class Initialized
+INFO - 2024-12-17 10:25:08 --> Hooks Class Initialized
+INFO - 2024-12-17 10:25:09 --> URI Class Initialized
+INFO - 2024-12-17 10:25:09 --> Router Class Initialized
+DEBUG - 2024-12-17 10:25:09 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:25:09 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:25:09 --> Output Class Initialized
+INFO - 2024-12-17 10:25:09 --> URI Class Initialized
+INFO - 2024-12-17 10:25:09 --> Security Class Initialized
+INFO - 2024-12-17 10:25:09 --> Router Class Initialized
+DEBUG - 2024-12-17 10:25:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:25:09 --> Input Class Initialized
+INFO - 2024-12-17 10:25:09 --> Output Class Initialized
+INFO - 2024-12-17 10:25:09 --> Language Class Initialized
+INFO - 2024-12-17 10:25:09 --> Security Class Initialized
+ERROR - 2024-12-17 10:25:09 --> 404 Page Not Found: Assets/assets-landing
+DEBUG - 2024-12-17 10:25:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:25:09 --> Input Class Initialized
+INFO - 2024-12-17 10:25:09 --> Language Class Initialized
+ERROR - 2024-12-17 10:25:09 --> 404 Page Not Found: Forgotpassword/path
+INFO - 2024-12-17 10:25:09 --> Config Class Initialized
+INFO - 2024-12-17 10:25:09 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:25:09 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:25:09 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:25:09 --> URI Class Initialized
+INFO - 2024-12-17 10:25:09 --> Router Class Initialized
+INFO - 2024-12-17 10:25:09 --> Output Class Initialized
+INFO - 2024-12-17 10:25:09 --> Security Class Initialized
+DEBUG - 2024-12-17 10:25:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:25:09 --> Input Class Initialized
+INFO - 2024-12-17 10:25:09 --> Language Class Initialized
+ERROR - 2024-12-17 10:25:09 --> 404 Page Not Found: Forgotpassword/img
+INFO - 2024-12-17 10:25:28 --> Config Class Initialized
+INFO - 2024-12-17 10:25:28 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:25:28 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:25:28 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:25:28 --> URI Class Initialized
+INFO - 2024-12-17 10:25:28 --> Router Class Initialized
+INFO - 2024-12-17 10:25:28 --> Output Class Initialized
+INFO - 2024-12-17 10:25:28 --> Security Class Initialized
+DEBUG - 2024-12-17 10:25:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:25:28 --> Input Class Initialized
+INFO - 2024-12-17 10:25:28 --> Language Class Initialized
+INFO - 2024-12-17 10:25:28 --> Loader Class Initialized
+INFO - 2024-12-17 10:25:28 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:25:28 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:25:28 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:25:28 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:25:28 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:25:28 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:25:28 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:25:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:25:28 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:25:28 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:25:28 --> Cart Class Initialized
+INFO - 2024-12-17 10:25:28 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:25:28 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:25:28 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:25:28 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:25:28 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:25:28 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:25:28 --> Controller Class Initialized
+INFO - 2024-12-17 10:25:28 --> Model "Auth" initialized
+INFO - 2024-12-17 10:25:28 --> Email Class Initialized
+INFO - 2024-12-17 10:25:28 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2024-12-17 10:25:28 --> Config Class Initialized
+INFO - 2024-12-17 10:25:28 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:25:28 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:25:28 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:25:28 --> URI Class Initialized
+INFO - 2024-12-17 10:25:28 --> Router Class Initialized
+INFO - 2024-12-17 10:25:28 --> Output Class Initialized
+INFO - 2024-12-17 10:25:28 --> Security Class Initialized
+DEBUG - 2024-12-17 10:25:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:25:28 --> Input Class Initialized
+INFO - 2024-12-17 10:25:28 --> Language Class Initialized
+INFO - 2024-12-17 10:25:28 --> Loader Class Initialized
+INFO - 2024-12-17 10:25:28 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:25:28 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:25:28 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:25:28 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:25:28 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:25:28 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:25:28 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:25:28 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:25:28 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:25:28 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:25:28 --> Cart Class Initialized
+INFO - 2024-12-17 10:25:28 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:25:28 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:25:28 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:25:28 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:25:28 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:25:28 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:25:28 --> Controller Class Initialized
+INFO - 2024-12-17 10:25:28 --> Model "Auth" initialized
+INFO - 2024-12-17 10:25:28 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\landing-page/login.php
+INFO - 2024-12-17 10:25:28 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\layout_landing.php
+INFO - 2024-12-17 10:25:28 --> Final output sent to browser
+DEBUG - 2024-12-17 10:25:28 --> Total execution time: 0.0910
+INFO - 2024-12-17 10:25:28 --> Config Class Initialized
+INFO - 2024-12-17 10:25:28 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:25:28 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:25:28 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:25:28 --> URI Class Initialized
+INFO - 2024-12-17 10:25:28 --> Config Class Initialized
+INFO - 2024-12-17 10:25:28 --> Hooks Class Initialized
+INFO - 2024-12-17 10:25:28 --> Router Class Initialized
+DEBUG - 2024-12-17 10:25:28 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:25:28 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:25:28 --> Output Class Initialized
+INFO - 2024-12-17 10:25:28 --> URI Class Initialized
+INFO - 2024-12-17 10:25:28 --> Security Class Initialized
+INFO - 2024-12-17 10:25:28 --> Router Class Initialized
+DEBUG - 2024-12-17 10:25:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:25:28 --> Input Class Initialized
+INFO - 2024-12-17 10:25:28 --> Language Class Initialized
+INFO - 2024-12-17 10:25:28 --> Output Class Initialized
+ERROR - 2024-12-17 10:25:28 --> 404 Page Not Found: Assets/assets-landing
+INFO - 2024-12-17 10:25:28 --> Security Class Initialized
+DEBUG - 2024-12-17 10:25:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:25:28 --> Input Class Initialized
+INFO - 2024-12-17 10:25:28 --> Language Class Initialized
+ERROR - 2024-12-17 10:25:28 --> 404 Page Not Found: Path/to
+INFO - 2024-12-17 10:25:28 --> Config Class Initialized
+INFO - 2024-12-17 10:25:28 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:25:28 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:25:28 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:25:28 --> URI Class Initialized
+INFO - 2024-12-17 10:25:28 --> Router Class Initialized
+INFO - 2024-12-17 10:25:28 --> Output Class Initialized
+INFO - 2024-12-17 10:25:28 --> Security Class Initialized
+DEBUG - 2024-12-17 10:25:28 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:25:28 --> Input Class Initialized
+INFO - 2024-12-17 10:25:28 --> Language Class Initialized
+ERROR - 2024-12-17 10:25:28 --> 404 Page Not Found: Img/login-form__bg.png
+INFO - 2024-12-17 10:25:34 --> Config Class Initialized
+INFO - 2024-12-17 10:25:34 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:25:34 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:25:34 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:25:34 --> URI Class Initialized
+INFO - 2024-12-17 10:25:34 --> Router Class Initialized
+INFO - 2024-12-17 10:25:34 --> Output Class Initialized
+INFO - 2024-12-17 10:25:34 --> Security Class Initialized
+DEBUG - 2024-12-17 10:25:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:25:34 --> Input Class Initialized
+INFO - 2024-12-17 10:25:34 --> Language Class Initialized
+INFO - 2024-12-17 10:25:34 --> Loader Class Initialized
+INFO - 2024-12-17 10:25:34 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:25:34 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:25:34 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:25:34 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:25:34 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:25:34 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:25:34 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:25:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:25:34 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:25:34 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:25:34 --> Cart Class Initialized
+INFO - 2024-12-17 10:25:34 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:25:34 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:25:34 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:25:34 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:25:34 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:25:34 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:25:34 --> Controller Class Initialized
+INFO - 2024-12-17 10:25:34 --> Model "Auth" initialized
+INFO - 2024-12-17 10:25:34 --> Config Class Initialized
+INFO - 2024-12-17 10:25:34 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:25:34 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:25:34 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:25:34 --> URI Class Initialized
+DEBUG - 2024-12-17 10:25:34 --> No URI present. Default controller set.
+INFO - 2024-12-17 10:25:34 --> Router Class Initialized
+INFO - 2024-12-17 10:25:34 --> Output Class Initialized
+INFO - 2024-12-17 10:25:34 --> Security Class Initialized
+DEBUG - 2024-12-17 10:25:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:25:34 --> Input Class Initialized
+INFO - 2024-12-17 10:25:34 --> Language Class Initialized
+INFO - 2024-12-17 10:25:34 --> Loader Class Initialized
+INFO - 2024-12-17 10:25:34 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:25:34 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:25:34 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:25:34 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:25:34 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:25:34 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:25:34 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:25:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:25:34 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:25:34 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:25:34 --> Cart Class Initialized
+INFO - 2024-12-17 10:25:34 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:25:34 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:25:34 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:25:34 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:25:34 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:25:34 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:25:34 --> Controller Class Initialized
+INFO - 2024-12-17 10:25:34 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\landing-page/home/index.php
+INFO - 2024-12-17 10:25:34 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\layout_landing.php
+INFO - 2024-12-17 10:25:34 --> Final output sent to browser
+DEBUG - 2024-12-17 10:25:34 --> Total execution time: 0.0706
+INFO - 2024-12-17 10:25:34 --> Config Class Initialized
+INFO - 2024-12-17 10:25:34 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:25:34 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:25:34 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:25:34 --> URI Class Initialized
+INFO - 2024-12-17 10:25:34 --> Router Class Initialized
+INFO - 2024-12-17 10:25:34 --> Output Class Initialized
+INFO - 2024-12-17 10:25:34 --> Security Class Initialized
+DEBUG - 2024-12-17 10:25:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:25:34 --> Input Class Initialized
+INFO - 2024-12-17 10:25:34 --> Language Class Initialized
+ERROR - 2024-12-17 10:25:34 --> 404 Page Not Found: Assets/assets-landing
+INFO - 2024-12-17 10:25:34 --> Config Class Initialized
+INFO - 2024-12-17 10:25:34 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:25:34 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:25:34 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:25:34 --> URI Class Initialized
+INFO - 2024-12-17 10:25:34 --> Router Class Initialized
+INFO - 2024-12-17 10:25:34 --> Output Class Initialized
+INFO - 2024-12-17 10:25:34 --> Security Class Initialized
+DEBUG - 2024-12-17 10:25:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:25:34 --> Input Class Initialized
+INFO - 2024-12-17 10:25:34 --> Language Class Initialized
+ERROR - 2024-12-17 10:25:34 --> 404 Page Not Found: None/index
+INFO - 2024-12-17 10:25:39 --> Config Class Initialized
+INFO - 2024-12-17 10:25:39 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:25:39 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:25:39 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:25:39 --> URI Class Initialized
+INFO - 2024-12-17 10:25:39 --> Router Class Initialized
+INFO - 2024-12-17 10:25:39 --> Output Class Initialized
+INFO - 2024-12-17 10:25:39 --> Security Class Initialized
+DEBUG - 2024-12-17 10:25:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:25:39 --> Input Class Initialized
+INFO - 2024-12-17 10:25:39 --> Language Class Initialized
+INFO - 2024-12-17 10:25:39 --> Loader Class Initialized
+INFO - 2024-12-17 10:25:39 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:25:39 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:25:39 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:25:39 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:25:39 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:25:39 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:25:39 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:25:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:25:39 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:25:39 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:25:39 --> Cart Class Initialized
+INFO - 2024-12-17 10:25:39 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:25:39 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:25:39 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:25:39 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:25:39 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:25:39 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:25:39 --> Controller Class Initialized
+INFO - 2024-12-17 10:25:39 --> Model "Auth" initialized
+ERROR - 2024-12-17 10:25:39 --> Severity: 8192 --> setcookie(): Passing null to parameter #2 ($value) of type string is deprecated C:\xampp\htdocs\sr_wedding\system\libraries\Session\Session_driver.php 144
+ERROR - 2024-12-17 10:25:39 --> Severity: Warning --> session_destroy(): Trying to destroy uninitialized session C:\xampp\htdocs\sr_wedding\application\controllers\Login.php 92
+INFO - 2024-12-17 10:25:39 --> Config Class Initialized
+INFO - 2024-12-17 10:25:39 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:25:39 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:25:39 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:25:39 --> URI Class Initialized
+DEBUG - 2024-12-17 10:25:39 --> No URI present. Default controller set.
+INFO - 2024-12-17 10:25:39 --> Router Class Initialized
+INFO - 2024-12-17 10:25:39 --> Output Class Initialized
+INFO - 2024-12-17 10:25:39 --> Security Class Initialized
+DEBUG - 2024-12-17 10:25:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:25:39 --> Input Class Initialized
+INFO - 2024-12-17 10:25:39 --> Language Class Initialized
+INFO - 2024-12-17 10:25:39 --> Loader Class Initialized
+INFO - 2024-12-17 10:25:39 --> Helper loaded: url_helper
+INFO - 2024-12-17 10:25:39 --> Helper loaded: file_helper
+INFO - 2024-12-17 10:25:39 --> Helper loaded: form_helper
+INFO - 2024-12-17 10:25:39 --> Helper loaded: html_helper
+INFO - 2024-12-17 10:25:39 --> Helper loaded: download_helper
+INFO - 2024-12-17 10:25:39 --> Database Driver Class Initialized
+INFO - 2024-12-17 10:25:39 --> Form Validation Class Initialized
+DEBUG - 2024-12-17 10:25:39 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2024-12-17 10:25:39 --> Session: Class initialized using 'files' driver.
+DEBUG - 2024-12-17 10:25:39 --> Session class already loaded. Second attempt ignored.
+INFO - 2024-12-17 10:25:39 --> Cart Class Initialized
+INFO - 2024-12-17 10:25:39 --> Model "ProdukModel" initialized
+INFO - 2024-12-17 10:25:39 --> Model "ShopModel" initialized
+INFO - 2024-12-17 10:25:39 --> Model "TransaksiModel" initialized
+INFO - 2024-12-17 10:25:39 --> Model "CategoryModel" initialized
+INFO - 2024-12-17 10:25:39 --> Model "RekeningModel" initialized
+INFO - 2024-12-17 10:25:39 --> Model "UserModel" initialized
+INFO - 2024-12-17 10:25:39 --> Controller Class Initialized
+INFO - 2024-12-17 10:25:39 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\landing-page/home/index.php
+INFO - 2024-12-17 10:25:39 --> File loaded: C:\xampp\htdocs\sr_wedding\application\views\layout_landing.php
+INFO - 2024-12-17 10:25:39 --> Final output sent to browser
+DEBUG - 2024-12-17 10:25:39 --> Total execution time: 0.0686
+INFO - 2024-12-17 10:25:39 --> Config Class Initialized
+INFO - 2024-12-17 10:25:39 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:25:39 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:25:39 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:25:39 --> URI Class Initialized
+INFO - 2024-12-17 10:25:39 --> Router Class Initialized
+INFO - 2024-12-17 10:25:39 --> Output Class Initialized
+INFO - 2024-12-17 10:25:39 --> Security Class Initialized
+DEBUG - 2024-12-17 10:25:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:25:39 --> Input Class Initialized
+INFO - 2024-12-17 10:25:39 --> Language Class Initialized
+ERROR - 2024-12-17 10:25:39 --> 404 Page Not Found: Assets/assets-landing
+INFO - 2024-12-17 10:25:39 --> Config Class Initialized
+INFO - 2024-12-17 10:25:39 --> Hooks Class Initialized
+DEBUG - 2024-12-17 10:25:39 --> UTF-8 Support Enabled
+INFO - 2024-12-17 10:25:39 --> Utf8 Class Initialized
+INFO - 2024-12-17 10:25:39 --> URI Class Initialized
+INFO - 2024-12-17 10:25:39 --> Router Class Initialized
+INFO - 2024-12-17 10:25:39 --> Output Class Initialized
+INFO - 2024-12-17 10:25:39 --> Security Class Initialized
+DEBUG - 2024-12-17 10:25:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2024-12-17 10:25:39 --> Input Class Initialized
+INFO - 2024-12-17 10:25:39 --> Language Class Initialized
+ERROR - 2024-12-17 10:25:39 --> 404 Page Not Found: None/index
