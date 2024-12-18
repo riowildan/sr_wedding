@@ -46,8 +46,8 @@
                 <!-- <div class="box-field"> -->
                 <select name="gender" id="gender" class="form-control" placeholder="Pilih Jenis Kelamin" required>
                     <option>--Pilih Jenis Kelamin--</option>
-                    <option value="L">Laki-Laki</option>
-                    <option value="P">Perempuan</option>
+                    <option value="Laki-laki">Laki-Laki</option>
+                    <option value="Perempuan">Perempuan</option>
                 </select>
                 <!-- </div> -->
                 <div class="box-field__row">
