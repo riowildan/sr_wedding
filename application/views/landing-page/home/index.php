@@ -21,7 +21,7 @@
                     <i class="icon-natural"></i>
                 </div>
                 <h4>Kepercayaan</h4>
-                <p>Tim internal kami mengkhususkan diri dalam perencanaan dan desain pernikahan layanan lengkap, dengan pengalaman 14 tahun.</p>
+                <p>Tim internal kami mengkhususkan diri dalam perencanaan dan desain pernikahan layanan lengkap.</p>
             </div>
             <div class="advantages-item">
                 <div class="advantages-item__icon">
